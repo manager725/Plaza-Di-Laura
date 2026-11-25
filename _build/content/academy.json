@@ -1,0 +1,169 @@
+{
+  "hubIntro": {
+    "title": {
+      "sv": "Laura hjälper dig att bli en framgångsrik PMU-artist",
+      "en": "Laura helps you become a successful PMU artist"
+    },
+    "paragraphs": [
+      {
+        "sv": "Ta steget in i en spännande och växande bransch. Lauras utbildningar ger dig kunskapen, teknikerna och stödet du behöver för att lyckas som professionell PMU-artist.",
+        "en": "Step into an exciting, growing industry. Laura's courses give you the knowledge, techniques and support you need to succeed as a professional PMU artist."
+      },
+      {
+        "sv": "Investera i ett givande, efterfrågat, snabbt växande och lönsamt yrke i dag! Med rätt utbildning kan du arbeta flexibelt, starta eget och skapa en trygg framtid inom PMU-branschen.",
+        "en": "Invest in a rewarding, in-demand, fast-growing and profitable profession today. With the right training you can work flexibly, start your own business and build a secure future in the PMU industry."
+      },
+      {
+        "sv": "Kontakta Laura för en kostnadsfri rådgivning och få hjälp att hitta rätt utbildning för dig.",
+        "en": "Contact Laura for a free consultation and get help finding the right course for you."
+      }
+    ]
+  },
+  "teacher": {
+    "title": {
+      "sv": "Vem är din lärare?",
+      "en": "Who is your teacher?"
+    },
+    "paragraphs": [
+      {
+        "sv": "Laura Lindqvist har arbetat med kosmetisk tatuering i över 20 år. Hon har längst erfarenhet i Sverige och har utbildat hundratals elever. Många av Lauras elever driver i dag framgångsrika verksamheter, både i Sverige och utomlands.",
+        "en": "Laura Lindqvist has worked with cosmetic tattooing for over 20 years. She has the longest experience in Sweden and has trained hundreds of students. Many of them now run successful businesses, both in Sweden and abroad."
+      },
+      {
+        "sv": "Laura driver i dag sin skola och klinik på Kungsgatan 11 i centrala Göteborg. Hon är en pionjär i branschen och har utvecklat flera tekniker inom läpptatuering.",
+        "en": "Today Laura runs her school and clinic at Kungsgatan 11 in central Gothenburg. She is a pioneer in the industry and has developed several lip tattooing techniques."
+      }
+    ]
+  },
+  "suppliers": {
+    "paragraph": {
+      "sv": "Vi arbetar endast med premiumleverantörer, och i alla våra startkit ingår en trådlös tatueringsmaskin, pigment och nålar från det världskända märket Biomaser. Vi samarbetar även med Kwadron, Permablend, LI Pigments, MAST, Cheyenne med flera.",
+      "en": "We only work with premium suppliers, and every starter kit includes a wireless tattoo machine, pigments and needles from the world-famous brand Biomaser. We also work with Kwadron, Permablend, LI Pigments, MAST, Cheyenne and others."
+    },
+    "brands": [
+      "Biomaser",
+      "Kwadron",
+      "Permablend",
+      "LI Pigments",
+      "MAST",
+      "Cheyenne"
+    ]
+  },
+  "practice": {
+    "title": {
+      "sv": "Praktik och stöd efter utbildningen",
+      "en": "Work experience and support after the course"
+    },
+    "paragraph": {
+      "sv": "Som elev hos oss får du möjlighet till kostnadsfri praktik på skolan vid behov, där du kan arbeta med dina första modeller under handledning av erfarna lärare. Det ger dig trygghet, erfarenhet och en stark start i ditt nya yrke inom en spännande och lönsam bransch!",
+      "en": "As a student with us you can do free work experience at the school when needed, treating your first models under the supervision of experienced teachers. It gives you confidence, experience and a strong start in your new profession in an exciting, profitable industry."
+    }
+  },
+  "whyStudents": [
+    {
+      "sv": "Först i Norden med flera av utbildningarna",
+      "en": "First in the Nordics with several of the courses"
+    },
+    {
+      "sv": "Över 15 års erfarenhet",
+      "en": "Over 15 years of experience"
+    },
+    {
+      "sv": "Hundratals utbildade elever",
+      "en": "Hundreds of trained students"
+    },
+    {
+      "sv": "Praktikmöjlighet efter kurs",
+      "en": "Work experience available after the course"
+    }
+  ],
+  "careerBlock": {
+    "title": {
+      "sv": "Starta din karriär inom kosmetisk tatuering!",
+      "en": "Start your career in cosmetic tattooing"
+    },
+    "paragraph": {
+      "sv": "Lär dig en av världens mest efterfrågade behandlingar och bygg din egen lönsamma verksamhet, även som nybörjare!",
+      "en": "Learn one of the most sought-after treatments in the world and build your own profitable business, even as a beginner."
+    },
+    "items": [
+      {
+        "sv": "Ingen tidigare erfarenhet krävs",
+        "en": "No previous experience needed"
+      },
+      {
+        "sv": "Certifiering efter avslutad utbildning",
+        "en": "Certification when you complete the course"
+      },
+      {
+        "sv": "Praktisk träning på modeller",
+        "en": "Hands-on training on models"
+      },
+      {
+        "sv": "Personlig coaching",
+        "en": "Personal coaching"
+      }
+    ]
+  },
+  "studentQuote": {
+    "text": {
+      "sv": "Jag har nyligen gått en kosmetisk tatueringskurs och är verkligen supernöjd med hela upplevelsen! Utbildningen var väldigt pedagogisk och välstrukturerad, vilket gjorde att man kände sig trygg genom hela processen, både teoretiskt och praktiskt. Laura är professionell och tar sig tid att svara på alla frågor. Hon ger otrolig feedback och är med en hela tiden.",
+      "en": "I recently took a cosmetic tattoo course and I am really delighted with the whole experience. The teaching was very clear and well structured, so you felt confident throughout, in both the theory and the practice. Laura is professional and takes the time to answer every question. She gives amazing feedback and is with you the whole time."
+    },
+    "name": "Novah Wallin"
+  },
+  "yhProgramme": {
+    "paragraph": {
+      "sv": "Utöver mitt arbete med kunder och utbildningar arbetar jag i dag även med att utveckla en CSN-berättigad YH-utbildning. Syftet är att öka kunskapen inom branschen, stärka säkerheten för både kunder och utövare samt bidra till en mer professionell, reglerad och trygg skönhetsbransch. Utbildningen riktar sig till yrkesverksamma inom:",
+      "en": "Alongside my work with clients and courses, I am currently developing a higher vocational (YH) programme eligible for CSN student finance. Its purpose is to raise knowledge in the industry, improve safety for both clients and practitioners, and contribute to a more professional, regulated and safe beauty industry. The programme is for professionals working in:"
+    },
+    "items": [
+      {
+        "sv": "Avancerad hudvård",
+        "en": "Advanced skincare"
+      },
+      {
+        "sv": "Injektionsbehandlingar",
+        "en": "Injectable treatments"
+      },
+      {
+        "sv": "Laser",
+        "en": "Laser"
+      },
+      {
+        "sv": "Kosmetisk tatuering",
+        "en": "Cosmetic tattooing"
+      },
+      {
+        "sv": "Medicinsk tatuering",
+        "en": "Medical tattooing"
+      }
+    ],
+    "focus": [
+      {
+        "sv": "Patient- och kundsäkerhet",
+        "en": "Patient and client safety"
+      },
+      {
+        "sv": "Hygienrutiner, sterilteknik samt miljö och hälsa",
+        "en": "Hygiene routines, sterile technique, and environment and health"
+      },
+      {
+        "sv": "Lagar, regler, tillstånd och myndighetskrav",
+        "en": "Laws, regulations, permits and authority requirements"
+      },
+      {
+        "sv": "Journalföring, försäkringar och dokumentationskrav",
+        "en": "Record keeping, insurance and documentation requirements"
+      },
+      {
+        "sv": "Kontraindikationer, komplikationer och åtgärdsplaner",
+        "en": "Contraindications, complications and action plans"
+      },
+      {
+        "sv": "Produktkunskap och Läkemedelsverkets krav inom avancerade behandlingar",
+        "en": "Product knowledge and the Swedish Medical Products Agency's requirements for advanced treatments"
+      }
+    ]
+  }
+}

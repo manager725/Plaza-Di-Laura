@@ -1,0 +1,989 @@
+[
+  {
+    "slug": "signature-pmu",
+    "handle": "grundkurs-kosmetisk-tatuering-alla-metoder",
+    "name": {
+      "sv": "Signature PMU Artist Program",
+      "en": "Signature PMU Artist Program"
+    },
+    "short": {
+      "sv": "Fem dagar på skolan där du lär dig sex metoder: lipblush, ombrelips, powderbrows, ombrebrows, nanostrokes och lashliner.",
+      "en": "Five days at the school learning six methods: lip blush, ombre lips, powder brows, ombre brows, nanostrokes and lash liner."
+    },
+    "h1": {
+      "sv": "PMU-utbildning i Göteborg, alla metoder",
+      "en": "PMU training in Gothenburg, all methods"
+    },
+    "intro": [
+      {
+        "sv": "Grundkurs i alla metoder med PMU-artisten och läraren Laura Lindqvist.",
+        "en": "A foundation course in all methods with PMU artist and teacher Laura Lindqvist."
+      },
+      {
+        "sv": "Vi hjälper dig att bli en framgångsrik PMU-artist. Investera i ett spännande, snabbt växande och lönsamt yrke i dag!",
+        "en": "We help you become a successful PMU artist. Invest in an exciting, fast-growing and profitable profession today."
+      }
+    ],
+    "methods": [
+      "Lipblush",
+      "Ombrelips",
+      "Powderbrows",
+      "Ombrebrows",
+      "Nanostrokes",
+      "Lashliner"
+    ],
+    "learn": {
+      "title": {
+        "sv": "Vi lär dig",
+        "en": "What you will learn"
+      },
+      "items": [
+        {
+          "sv": "Skapa naturliga och realistiska bryn",
+          "en": "Create natural, realistic brows"
+        },
+        {
+          "sv": "Mäta och måla upp brynens form efter ansiktsdrag och hudton",
+          "en": "Measure and draw the brow shape to suit facial features and skin tone"
+        },
+        {
+          "sv": "Hudlära",
+          "en": "Skin theory"
+        },
+        {
+          "sv": "Färglära",
+          "en": "Colour theory"
+        },
+        {
+          "sv": "Maskin- och nållära",
+          "en": "Machines and needles"
+        },
+        {
+          "sv": "Varumärken och samarbetspartners",
+          "en": "Brands and partners"
+        },
+        {
+          "sv": "Ergonomi",
+          "en": "Ergonomics"
+        },
+        {
+          "sv": "Hygien, säkerhet och professionell kundhantering",
+          "en": "Hygiene, safety and professional client care"
+        },
+        {
+          "sv": "Praktisk träning med korrekt teknik och behandlingsprotokoll",
+          "en": "Hands-on practice with correct technique and treatment protocols"
+        }
+      ]
+    },
+    "signatureTechnique": {
+      "sv": "Du får även lära dig Lauras egenutvecklade tekniker, som har blivit mycket omtalade i branschen: hur du tatuerar utan att traumatisera vävnaden. Lauras unika teknik är smärtfri, utan blödning, blåmärken eller svullnad. Inga skorpor bildas under läkningen, som blir fantastisk med naturliga resultat.",
+      "en": "You will also learn Laura's own techniques, which have become much talked about in the industry: how to tattoo without traumatising the tissue. Laura's unique technique is painless, with no bleeding, bruising or swelling. No scabs form during healing, and the skin heals beautifully with natural results."
+    },
+    "days": 5,
+    "format": {
+      "title": {
+        "sv": "Kursupplägg",
+        "en": "Course structure"
+      },
+      "items": [
+        {
+          "sv": "5 dagar på skolan",
+          "en": "5 days at the school"
+        },
+        {
+          "sv": "Kursmaterial mejlas innan kursstart",
+          "en": "Course material emailed before the course starts"
+        },
+        {
+          "sv": "Teori",
+          "en": "Theory"
+        },
+        {
+          "sv": "Praktisk övning på konsthud och levande modeller med mera",
+          "en": "Practical training on practice skin, live models and more"
+        },
+        {
+          "sv": "Livedemonstration av Laura på en hel behandling",
+          "en": "Live demonstration by Laura of a complete treatment"
+        },
+        {
+          "sv": "Tips och råd om marknadsföring inom PMU-branschen",
+          "en": "Tips and advice on marketing in the PMU industry"
+        },
+        {
+          "sv": "Möjlighet till praktik på skolan",
+          "en": "Opportunity for work experience at the school"
+        },
+        {
+          "sv": "Livstids support och coaching",
+          "en": "Lifetime support and coaching"
+        },
+        {
+          "sv": "Eleverna får certifikat och fotograferas tillsammans med läraren",
+          "en": "Students receive a certificate and are photographed with the teacher"
+        }
+      ]
+    },
+    "included": {
+      "title": {
+        "sv": "Vad ingår?",
+        "en": "What is included?"
+      },
+      "items": [
+        {
+          "sv": "Startkit med maskin, nålar, pigment med mera",
+          "en": "Starter kit with machine, needles, pigments and more"
+        },
+        {
+          "sv": "Kursmaterial och övningsmaterial",
+          "en": "Course and practice materials"
+        },
+        {
+          "sv": "Internationellt certifikat",
+          "en": "International certificate"
+        },
+        {
+          "sv": "Kundkort och hälsodeklaration/kundjournal",
+          "en": "Client cards and health declaration/client records"
+        },
+        {
+          "sv": "Livstids support",
+          "en": "Lifetime support"
+        },
+        {
+          "sv": "Möjlighet till praktik på skolan enligt överenskommelse",
+          "en": "Work experience at the school by arrangement"
+        },
+        {
+          "sv": "Livedemo: Laura utför en hel behandling och eleverna får fota och filma",
+          "en": "Live demo: Laura performs a complete treatment and students may photograph and film"
+        },
+        {
+          "sv": "Marknadsföringslära",
+          "en": "Marketing know-how"
+        }
+      ]
+    },
+    "highlights": [
+      {
+        "sv": "Max 2 elever per kurstillfälle",
+        "en": "Max 2 students per course date"
+      },
+      {
+        "sv": "Avbetalning med Qliro",
+        "en": "Pay in instalments with Qliro"
+      },
+      {
+        "sv": "Skräddarsy din utbildning, välj metoder fritt",
+        "en": "Tailor your training, choose any methods you like"
+      }
+    ],
+    "price": {
+      "sv": "55 000 kr",
+      "en": "SEK 55,000"
+    },
+    "priceNote": {
+      "sv": "Hela summan går att få på avbetalning via Qliro",
+      "en": "The full amount can be paid in instalments via Qliro"
+    },
+    "pdf": "https://cdn.shopify.com/s/files/1/0987/5334/7927/files/grundkurs_alla_metoder.pdf?v=1779129815",
+    "career": null,
+    "people": null,
+    "extra": [],
+    "seo": {
+      "title": {
+        "sv": "PMU-utbildning i Göteborg, alla metoder | Plaza Di Laura",
+        "en": "PMU Training in Gothenburg, All Methods | Plaza Di Laura"
+      },
+      "description": {
+        "sv": "Signature PMU Artist Program i Göteborg: 5 dagar med Laura Lindqvist i lipblush, ombrelips, powderbrows, ombrebrows, nanostrokes och lashliner. 55 000 kr.",
+        "en": "Signature PMU Artist Program in Gothenburg: 5 days with Laura Lindqvist covering lip blush, ombre lips, powder brows, nanostrokes and more. SEK 55,000."
+      }
+    }
+  },
+  {
+    "slug": "signature-microblading",
+    "handle": "grundkurs-microblading-nanostrokes",
+    "name": {
+      "sv": "Signature Microblading Program",
+      "en": "Signature Microblading Program"
+    },
+    "short": {
+      "sv": "Fyra dagar på skolan där du lär dig microblading och nanostrokes för naturliga, realistiska bryn på olika hudtyper.",
+      "en": "Four days at the school learning microblading and nanostrokes for natural, realistic brows on different skin types."
+    },
+    "h1": {
+      "sv": "Microbladingutbildning i Göteborg",
+      "en": "Microblading training in Gothenburg"
+    },
+    "intro": [
+      {
+        "sv": "Signature Microblading & Nanostroke Brow Program: här lär du dig skapa naturliga och realistiska bryn med microblading och nanostrokes, anpassade efter olika hudtyper.",
+        "en": "Signature Microblading & Nanostroke Brow Program: learn to create natural, realistic brows with microblading and nanostrokes, adapted to different skin types."
+      }
+    ],
+    "methods": [
+      "Microblading",
+      "Nanostrokes"
+    ],
+    "learn": {
+      "title": {
+        "sv": "Vi lär dig",
+        "en": "What you will learn"
+      },
+      "items": [
+        {
+          "sv": "Skapa naturliga och realistiska bryn",
+          "en": "Create natural, realistic brows"
+        },
+        {
+          "sv": "Arbeta med microblading och nanostrokes för olika hudtyper",
+          "en": "Work with microblading and nanostrokes for different skin types"
+        },
+        {
+          "sv": "Anpassa brynens form, färg och täthet efter ansiktsdrag och hudton",
+          "en": "Adapt brow shape, colour and density to facial features and skin tone"
+        },
+        {
+          "sv": "Hudlära",
+          "en": "Skin theory"
+        },
+        {
+          "sv": "Färglära",
+          "en": "Colour theory"
+        },
+        {
+          "sv": "Maskin- och nållära",
+          "en": "Machines and needles"
+        },
+        {
+          "sv": "Varumärken och samarbetspartners",
+          "en": "Brands and partners"
+        },
+        {
+          "sv": "Ergonomi",
+          "en": "Ergonomics"
+        },
+        {
+          "sv": "Hygien, säkerhet och professionell kundhantering",
+          "en": "Hygiene, safety and professional client care"
+        },
+        {
+          "sv": "Praktisk träning med korrekt teknik och behandlingsprotokoll",
+          "en": "Hands-on practice with correct technique and treatment protocols"
+        }
+      ]
+    },
+    "signatureTechnique": {
+      "sv": "Du får även lära dig Lauras egenutvecklade tekniker, som har blivit mycket omtalade i branschen: hur du tatuerar utan att traumatisera vävnaden. Lauras unika teknik är smärtfri, utan blödning, blåmärken eller svullnad. Inga skorpor bildas under läkningen, som blir fantastisk med naturliga resultat.",
+      "en": "You will also learn Laura's own techniques, which have become much talked about in the industry: how to tattoo without traumatising the tissue. Laura's unique technique is painless, with no bleeding, bruising or swelling. No scabs form during healing, and the skin heals beautifully with natural results."
+    },
+    "days": 4,
+    "format": {
+      "title": {
+        "sv": "Kursupplägg",
+        "en": "Course structure"
+      },
+      "items": [
+        {
+          "sv": "4 dagar på skolan",
+          "en": "4 days at the school"
+        },
+        {
+          "sv": "Kursmaterial mejlas innan kursstart",
+          "en": "Course material emailed before the course starts"
+        },
+        {
+          "sv": "Teori",
+          "en": "Theory"
+        },
+        {
+          "sv": "Praktisk övning på konsthud och levande modeller med mera",
+          "en": "Practical training on practice skin, live models and more"
+        },
+        {
+          "sv": "Livedemonstration av Laura på en hel behandling",
+          "en": "Live demonstration by Laura of a complete treatment"
+        },
+        {
+          "sv": "Tips och råd om marknadsföring inom PMU-branschen",
+          "en": "Tips and advice on marketing in the PMU industry"
+        },
+        {
+          "sv": "Möjlighet till praktik på skolan",
+          "en": "Opportunity for work experience at the school"
+        },
+        {
+          "sv": "Livstids support och coaching",
+          "en": "Lifetime support and coaching"
+        },
+        {
+          "sv": "Eleverna får certifikat och fotograferas tillsammans med läraren",
+          "en": "Students receive a certificate and are photographed with the teacher"
+        }
+      ]
+    },
+    "included": {
+      "title": {
+        "sv": "Vad ingår?",
+        "en": "What is included?"
+      },
+      "items": [
+        {
+          "sv": "Startkit med maskin, nålar, pigment med mera",
+          "en": "Starter kit with machine, needles, pigments and more"
+        },
+        {
+          "sv": "Kursmaterial och övningsmaterial",
+          "en": "Course and practice materials"
+        },
+        {
+          "sv": "Internationellt certifikat",
+          "en": "International certificate"
+        },
+        {
+          "sv": "Kundkort och hälsodeklaration/kundjournal",
+          "en": "Client cards and health declaration/client records"
+        },
+        {
+          "sv": "Livstids support",
+          "en": "Lifetime support"
+        },
+        {
+          "sv": "Möjlighet till praktik på skolan enligt överenskommelse",
+          "en": "Work experience at the school by arrangement"
+        },
+        {
+          "sv": "Livedemo: Laura utför en hel behandling och eleverna får fota och filma",
+          "en": "Live demo: Laura performs a complete treatment and students may photograph and film"
+        },
+        {
+          "sv": "Marknadsföringslära",
+          "en": "Marketing know-how"
+        }
+      ]
+    },
+    "highlights": [
+      {
+        "sv": "Max 2 elever per kurstillfälle",
+        "en": "Max 2 students per course date"
+      },
+      {
+        "sv": "Avbetalning med Qliro",
+        "en": "Pay in instalments with Qliro"
+      },
+      {
+        "sv": "Skräddarsy din utbildning, välj metoder fritt",
+        "en": "Tailor your training, choose any methods you like"
+      }
+    ],
+    "price": null,
+    "priceNote": null,
+    "pdf": null,
+    "career": null,
+    "people": null,
+    "extra": [],
+    "seo": {
+      "title": {
+        "sv": "Microbladingutbildning i Göteborg, 4 dagar | Plaza Di Laura",
+        "en": "Microblading Training in Gothenburg, 4 Days | Plaza Di Laura"
+      },
+      "description": {
+        "sv": "Signature Microblading Program i Göteborg: 4 dagar där du lär dig microblading och nanostrokes för olika hudtyper. Max 2 elever per kurstillfälle.",
+        "en": "Signature Microblading Program in Gothenburg: 4 days learning microblading and nanostrokes for different skin types. Max 2 students, starter kit included."
+      }
+    }
+  },
+  {
+    "slug": "freckle",
+    "handle": "grundkurs-fraknar",
+    "name": {
+      "sv": "Freckle Technique Program",
+      "en": "Freckle Technique Program"
+    },
+    "short": {
+      "sv": "Tre dagar på skolan där du lär dig skapa naturliga och realistiska fräknar med rätt pigment för olika hudtyper.",
+      "en": "Three days at the school learning to create natural, realistic freckles with the right pigment for different skin types."
+    },
+    "h1": {
+      "sv": "Utbildning i fräknar i Göteborg",
+      "en": "Freckle tattoo training in Gothenburg"
+    },
+    "intro": [
+      {
+        "sv": "Freckle Technique Program: här lär du dig skapa naturliga och realistiska fräknar, med rätt pigment för olika hudtyper och en form, färg och täthet anpassad efter ansiktsdrag, hudton och önskemål.",
+        "en": "Freckle Technique Program: learn to create natural, realistic freckles, using the right pigment for different skin types and adapting shape, colour and density to facial features, skin tone and wishes."
+      }
+    ],
+    "methods": null,
+    "learn": {
+      "title": {
+        "sv": "Vi lär dig",
+        "en": "What you will learn"
+      },
+      "items": [
+        {
+          "sv": "Skapa naturliga och realistiska fräknar",
+          "en": "Create natural, realistic freckles"
+        },
+        {
+          "sv": "Arbeta med rätt pigment för olika hudtyper och resultat",
+          "en": "Work with the right pigment for different skin types and results"
+        },
+        {
+          "sv": "Anpassa form, färg och täthet efter ansiktsdrag, hudton och önskemål",
+          "en": "Adapt shape, colour and density to facial features, skin tone and wishes"
+        },
+        {
+          "sv": "Hudlära",
+          "en": "Skin theory"
+        },
+        {
+          "sv": "Färglära",
+          "en": "Colour theory"
+        },
+        {
+          "sv": "Tatueringsverktyg och nållära",
+          "en": "Tattoo tools and needles"
+        },
+        {
+          "sv": "Varumärken och samarbetspartners",
+          "en": "Brands and partners"
+        },
+        {
+          "sv": "Ergonomi",
+          "en": "Ergonomics"
+        },
+        {
+          "sv": "Hygien, säkerhet och professionell kundhantering",
+          "en": "Hygiene, safety and professional client care"
+        },
+        {
+          "sv": "Praktisk träning med korrekt teknik och behandlingsprotokoll",
+          "en": "Hands-on practice with correct technique and treatment protocols"
+        }
+      ]
+    },
+    "signatureTechnique": {
+      "sv": "Du får även lära dig Lauras egenutvecklade tekniker, som har blivit mycket omtalade i branschen: hur du tatuerar utan att traumatisera vävnaden. Lauras unika teknik är smärtfri, utan blödning, blåmärken eller svullnad. Inga skorpor bildas under läkningen, som blir fantastisk med naturliga resultat.",
+      "en": "You will also learn Laura's own techniques, which have become much talked about in the industry: how to tattoo without traumatising the tissue. Laura's unique technique is painless, with no bleeding, bruising or swelling. No scabs form during healing, and the skin heals beautifully with natural results."
+    },
+    "days": 3,
+    "format": {
+      "title": {
+        "sv": "Kursupplägg",
+        "en": "Course structure"
+      },
+      "items": [
+        {
+          "sv": "3 dagar på skolan",
+          "en": "3 days at the school"
+        },
+        {
+          "sv": "Kursmaterial mejlas innan kursstart",
+          "en": "Course material emailed before the course starts"
+        },
+        {
+          "sv": "Teori",
+          "en": "Theory"
+        },
+        {
+          "sv": "Praktisk övning på konsthud och levande modeller med mera",
+          "en": "Practical training on practice skin, live models and more"
+        },
+        {
+          "sv": "Livedemonstration av Laura på en hel behandling",
+          "en": "Live demonstration by Laura of a complete treatment"
+        },
+        {
+          "sv": "Tips och råd om marknadsföring inom PMU-branschen",
+          "en": "Tips and advice on marketing in the PMU industry"
+        },
+        {
+          "sv": "Möjlighet till praktik på skolan",
+          "en": "Opportunity for work experience at the school"
+        },
+        {
+          "sv": "Livstids support och coaching",
+          "en": "Lifetime support and coaching"
+        },
+        {
+          "sv": "Eleverna får certifikat och fotograferas tillsammans med läraren",
+          "en": "Students receive a certificate and are photographed with the teacher"
+        }
+      ]
+    },
+    "included": {
+      "title": {
+        "sv": "Vad ingår?",
+        "en": "What is included?"
+      },
+      "items": [
+        {
+          "sv": "Startkit med tatueringsverktyg, nålar, pigment med mera",
+          "en": "Starter kit with tattoo tools, needles, pigments and more"
+        },
+        {
+          "sv": "Kursmaterial och övningsmaterial",
+          "en": "Course and practice materials"
+        },
+        {
+          "sv": "Internationellt certifikat",
+          "en": "International certificate"
+        },
+        {
+          "sv": "Kundkort och hälsodeklaration/kundjournal",
+          "en": "Client cards and health declaration/client records"
+        },
+        {
+          "sv": "Livstids support",
+          "en": "Lifetime support"
+        },
+        {
+          "sv": "Möjlighet till praktik på skolan enligt överenskommelse",
+          "en": "Work experience at the school by arrangement"
+        },
+        {
+          "sv": "Livedemo: Laura utför en hel behandling och eleverna får fota och filma",
+          "en": "Live demo: Laura performs a complete treatment and students may photograph and film"
+        },
+        {
+          "sv": "Marknadsföringslära",
+          "en": "Marketing know-how"
+        }
+      ]
+    },
+    "highlights": [
+      {
+        "sv": "Max 2 elever per kurstillfälle",
+        "en": "Max 2 students per course date"
+      },
+      {
+        "sv": "Avbetalning med Qliro",
+        "en": "Pay in instalments with Qliro"
+      },
+      {
+        "sv": "Skräddarsy din utbildning, välj metoder fritt",
+        "en": "Tailor your training, choose any methods you like"
+      }
+    ],
+    "price": null,
+    "priceNote": null,
+    "pdf": null,
+    "career": null,
+    "people": null,
+    "extra": [],
+    "seo": {
+      "title": {
+        "sv": "Kurs i semi-permanenta fräknar, Göteborg | Plaza Di Laura",
+        "en": "Freckle Tattoo Training in Gothenburg | Plaza Di Laura"
+      },
+      "description": {
+        "sv": "Freckle Technique Program i Göteborg: 3 dagar där du lär dig skapa naturliga, realistiska fräknar för olika hudtyper. Max 2 elever, startkit ingår.",
+        "en": "Freckle Technique Program in Gothenburg: 3 days learning to create natural, realistic freckles for different skin types. Max 2 students, starter kit included."
+      }
+    }
+  },
+  {
+    "slug": "smp",
+    "handle": "grundkurs-smp",
+    "name": {
+      "sv": "Grundkurs SMP",
+      "en": "SMP Foundation Course"
+    },
+    "short": {
+      "sv": "Yrkesutbildning i skalp mikropigmentering för dig som vill arbeta med kunder med håravfall, tunnhårighet eller alopecia.",
+      "en": "Professional training in scalp micropigmentation for working with clients who have hair loss, thinning hair or alopecia."
+    },
+    "h1": {
+      "sv": "SMP-utbildning i Göteborg",
+      "en": "SMP training in Gothenburg"
+    },
+    "intro": [
+      {
+        "sv": "Hos Plaza Di Laura i Göteborg erbjuder vi grundkurs i SMP (skalp mikropigmentering), en yrkesutbildning för dig som vill arbeta med kunder som lider av håravfall, tunnhårighet eller alopecia, eller som har ärr från misslyckade hårtransplantationer.",
+        "en": "At Plaza Di Laura in Gothenburg we offer a foundation course in SMP (scalp micropigmentation), professional training for anyone who wants to work with clients affected by hair loss, thinning hair or alopecia, or scarring from failed hair transplants."
+      },
+      {
+        "sv": "SMP är en avancerad teknik där pigmentprickar placeras i hårbotten med hjälp av en tatueringsmaskin för att skapa illusionen av tätare hår eller hårrötter. Under kursen lär du dig att anpassa behandlingen efter olika hudtyper, hårfärger och kunders behov.",
+        "en": "SMP is an advanced technique in which dots of pigment are placed in the scalp with a tattoo machine to create the illusion of thicker hair or hair follicles. On the course you learn to adapt the treatment to different skin types, hair colours and client needs."
+      }
+    ],
+    "methods": null,
+    "learn": {
+      "title": {
+        "sv": "Vad lär man sig?",
+        "en": "What will you learn?"
+      },
+      "items": [
+        {
+          "sv": "Skapa realistiska hårsimulerande effekter",
+          "en": "Create realistic hair-simulating effects"
+        },
+        {
+          "sv": "Anpassa pigment och teknik efter hudton och hårtyp",
+          "en": "Adapt pigment and technique to skin tone and hair type"
+        },
+        {
+          "sv": "Arbeta med olika densitet, nyanser och mönster",
+          "en": "Work with different densities, shades and patterns"
+        },
+        {
+          "sv": "Hygien, säkerhet och kundhantering",
+          "en": "Hygiene, safety and client care"
+        },
+        {
+          "sv": "Praktisk träning med korrekt teknik och behandlingsprotokoll",
+          "en": "Hands-on practice with correct technique and treatment protocols"
+        }
+      ]
+    },
+    "signatureTechnique": null,
+    "days": null,
+    "format": null,
+    "included": {
+      "title": {
+        "sv": "Vad ingår?",
+        "en": "What is included?"
+      },
+      "items": [
+        {
+          "sv": "Maskin",
+          "en": "Machine"
+        },
+        {
+          "sv": "Nålar",
+          "en": "Needles"
+        },
+        {
+          "sv": "Pigment",
+          "en": "Pigments"
+        },
+        {
+          "sv": "Kursmaterial",
+          "en": "Course material"
+        },
+        {
+          "sv": "Övningsmaterial",
+          "en": "Practice material"
+        },
+        {
+          "sv": "Du utför en hel SMP-behandling tillsammans med läraren",
+          "en": "You carry out a complete SMP treatment together with the teacher"
+        },
+        {
+          "sv": "Certifikat som du får med dig sista dagen",
+          "en": "A certificate to take home on the last day"
+        }
+      ]
+    },
+    "highlights": [
+      {
+        "sv": "Max 2 elever per kurstillfälle",
+        "en": "Max 2 students per course date"
+      },
+      {
+        "sv": "Avbetalning med Qliro",
+        "en": "Pay in instalments with Qliro"
+      },
+      {
+        "sv": "Skräddarsy din utbildning, välj metoder fritt",
+        "en": "Tailor your training, choose any methods you like"
+      }
+    ],
+    "price": null,
+    "priceNote": null,
+    "pdf": null,
+    "career": {
+      "title": {
+        "sv": "Lön och framtidsutsikter",
+        "en": "Earnings and prospects"
+      },
+      "paragraphs": [
+        {
+          "sv": "SMP-branschen är ny i Sverige och växer enormt snabbt. Framtidsutsikterna är därför mycket goda, likaså lönsamheten.",
+          "en": "The SMP industry is new in Sweden and growing very fast, so the prospects are very good, and so is the profitability."
+        },
+        {
+          "sv": "En behandling kräver två besök. Varje besök kostar mellan 8 000 och 12 000 kr och tar ca 4 timmar. Totalt 8 timmar, som ger ca 20 000–24 000 kr.",
+          "en": "A treatment requires two visits. Each visit costs between SEK 8,000 and 12,000 and takes about 4 hours. That is 8 hours in total, bringing in approx. SEK 20,000–24,000."
+        },
+        {
+          "sv": "Materialkostnaden är ca 200 kr per besök. Beräknad timpeng: 3 000 kr.",
+          "en": "Material costs are approx. SEK 200 per visit. Estimated hourly earnings: SEK 3,000."
+        }
+      ]
+    },
+    "people": [
+      {
+        "name": "Robert Tomaszewski",
+        "role": {
+          "sv": "SMP-artist",
+          "en": "SMP artist"
+        },
+        "bio": [
+          {
+            "sv": "Behandlingen utförs av Robert Tomaszewski, en av branschens mest erfarna SMP-artister med över 13 års erfarenhet.",
+            "en": "The treatment is carried out by Robert Tomaszewski, one of the most experienced SMP artists in the industry, with over 13 years of experience."
+          },
+          {
+            "sv": "Genom His Hair Sweden är Robert medgrundare till metoden skalp mikropigmentering, som lanserades redan 2002 och i dag finns representerad på 21 kliniker världen över.",
+            "en": "Through His Hair Sweden, Robert is a co-founder of the scalp micropigmentation method, which launched back in 2002 and is now represented at 21 clinics worldwide."
+          },
+          {
+            "sv": "Robert är internationellt erkänd inom SMP-branschen och har utbildat många av de artister som arbetar i Sverige i dag.",
+            "en": "Robert is internationally recognised in the SMP industry and has trained many of the artists working in Sweden today."
+          }
+        ]
+      }
+    ],
+    "extra": [
+      {
+        "title": {
+          "sv": "Vem passar SMP för?",
+          "en": "Who is SMP for?"
+        },
+        "paragraphs": [
+          {
+            "sv": "SMP passar till exempel den som är kal på hjässan men fortfarande har kvar rötter på sidorna, den som är helt kal på hela huvudet och den som har fläckvis tunnhårighet eller gles hårväxt.",
+            "en": "SMP suits, for example, people who are bald on the crown but still have roots at the sides, people who are completely bald, and people with patchy thinning or sparse hair growth."
+          },
+          {
+            "sv": "Har man för lite hår på huvudet, en så kallad för liten hårbank, finns tyvärr ingen möjlighet till hårtransplantation. Då är SMP det självklara valet och resultatet är livsförändrande!",
+            "en": "If there is too little hair on the head, a so-called donor area that is too small, a hair transplant is unfortunately not possible. SMP is then the obvious choice, and the result is life-changing."
+          },
+          {
+            "sv": "Man ser 10 år yngre ut, slutar bära keps, självförtroendet ökar och välbefinnandet höjs! En väldigt givande och rolig behandling att arbeta med.",
+            "en": "Clients look 10 years younger, stop wearing caps, and gain confidence and wellbeing. A very rewarding and enjoyable treatment to work with."
+          }
+        ],
+        "items": []
+      },
+      {
+        "title": null,
+        "paragraphs": [
+          {
+            "sv": "Efter utbildningen kan du arbeta självständigt med SMP, erbjuda kunder skräddarsydda och naturliga resultat samt starta eller utveckla en framgångsrik verksamhet inom professionell hårtatuering.",
+            "en": "After the course you can work independently with SMP, offer clients tailored, natural results, and start or grow a successful business in professional hair tattooing."
+          },
+          {
+            "sv": "Besök gärna vår filial: www.hishairsweden.se",
+            "en": "Feel free to visit our sister business: www.hishairsweden.se"
+          }
+        ],
+        "items": []
+      }
+    ],
+    "seo": {
+      "title": {
+        "sv": "SMP-utbildning i Göteborg, grundkurs | Plaza Di Laura",
+        "en": "SMP Foundation Course in Gothenburg | Plaza Di Laura"
+      },
+      "description": {
+        "sv": "Grundkurs i SMP i Göteborg. Lär dig skapa realistiska hårsimulerande effekter för olika hudtoner och hårtyper. Maskin, nålar, pigment och certifikat ingår.",
+        "en": "SMP foundation course in Gothenburg. Learn to create realistic hair-simulating effects for different skin tones and hair types. Machine and pigments included."
+      }
+    }
+  },
+  {
+    "slug": "microneedling",
+    "handle": "grundkurs-microneedling",
+    "name": {
+      "sv": "Grundkurs Microneedling",
+      "en": "Microneedling Foundation Course"
+    },
+    "short": {
+      "sv": "En komplett yrkesutbildning för dig som vill arbeta professionellt med hudföryngring, hudförbättring och anti age.",
+      "en": "Complete professional training for anyone who wants to work with skin rejuvenation, skin improvement and anti-ageing."
+    },
+    "h1": {
+      "sv": "Microneedlingutbildning i Göteborg",
+      "en": "Microneedling training in Gothenburg"
+    },
+    "intro": [
+      {
+        "sv": "Hos Plaza Di Laura i Göteborg erbjuder vi grundkurs i microneedling, en komplett yrkesutbildning för dig som vill arbeta med hudföryngring, hudförbättring och anti-age-behandlingar. Med vår erfarenhet på över 15 år inom hudvård och kosmetisk estetik får du både teoretisk kunskap och praktisk träning i en av de mest efterfrågade behandlingarna inom modern hudvård.",
+        "en": "At Plaza Di Laura in Gothenburg we offer a foundation course in microneedling, complete professional training for anyone who wants to work with skin rejuvenation, skin improvement and anti-ageing treatments. Drawing on over 15 years of experience in skincare and cosmetic aesthetics, you gain both theory and hands-on training in one of the most sought-after treatments in modern skincare."
+      },
+      {
+        "sv": "Under kursen lär du dig hur microneedling stimulerar hudens naturliga processer och ökar kollagenproduktionen, och hur du arbetar säkert och effektivt med olika hudtyper och hudtillstånd.",
+        "en": "On the course you learn how microneedling stimulates the skin's natural processes and increases collagen production, and how to work safely and effectively with different skin types and conditions."
+      }
+    ],
+    "methods": null,
+    "learn": {
+      "title": {
+        "sv": "Vad lär du dig i utbildningen?",
+        "en": "What will you learn?"
+      },
+      "items": [
+        {
+          "sv": "Stimulera hudens kollagen- och elastinproduktion",
+          "en": "Stimulating the skin's collagen and elastin production"
+        },
+        {
+          "sv": "Behandla rynkor, akneärr och pigmenteringar",
+          "en": "Treating wrinkles, acne scars and pigmentation"
+        },
+        {
+          "sv": "Arbeta med nåldjup, teknik och behandlingsprotokoll",
+          "en": "Working with needle depth, technique and treatment protocols"
+        },
+        {
+          "sv": "Anpassa behandlingen efter olika hudtyper och behov",
+          "en": "Adapting the treatment to different skin types and needs"
+        },
+        {
+          "sv": "Hygien, säkerhet och professionell kundhantering",
+          "en": "Hygiene, safety and professional client care"
+        }
+      ]
+    },
+    "signatureTechnique": null,
+    "days": null,
+    "format": null,
+    "included": null,
+    "highlights": [
+      {
+        "sv": "Max 2 elever per kurstillfälle",
+        "en": "Max 2 students per course date"
+      },
+      {
+        "sv": "Avbetalning med Qliro",
+        "en": "Pay in instalments with Qliro"
+      },
+      {
+        "sv": "Skräddarsy din utbildning, välj metoder fritt",
+        "en": "Tailor your training, choose any methods you like"
+      }
+    ],
+    "price": null,
+    "priceNote": null,
+    "pdf": null,
+    "career": null,
+    "people": null,
+    "extra": [
+      {
+        "title": null,
+        "paragraphs": [
+          {
+            "sv": "Efter avslutad utbildning har du en stark grund för att arbeta självständigt med microneedling och erbjuda kunder resultatinriktade och professionella behandlingar.",
+            "en": "When you finish the course you have a strong foundation for working independently with microneedling and offering clients professional, results-driven treatments."
+          }
+        ],
+        "items": []
+      }
+    ],
+    "seo": {
+      "title": {
+        "sv": "Microneedlingutbildning i Göteborg | Plaza Di Laura",
+        "en": "Microneedling Training in Gothenburg | Plaza Di Laura"
+      },
+      "description": {
+        "sv": "Grundkurs i microneedling i Göteborg: nåldjup, teknik och behandlingsprotokoll för rynkor, akneärr och pigmenteringar. Max 2 elever per kurstillfälle.",
+        "en": "Microneedling foundation course in Gothenburg: needle depth, technique and treatment protocols for wrinkles, acne scars and pigmentation. Max 2 per course."
+      }
+    }
+  },
+  {
+    "slug": "ink-removal",
+    "handle": "grundkurs-ink-removal",
+    "name": {
+      "sv": "Grundkurs Ink Removal",
+      "en": "Ink Removal Foundation Course"
+    },
+    "short": {
+      "sv": "Yrkesförberedande utbildning i LIFT Ink Removal, där pigment löses upp och lyfts ut ur huden utan laser.",
+      "en": "Professional training in LIFT Ink Removal, in which pigment is dissolved and lifted out of the skin without laser."
+    },
+    "h1": {
+      "sv": "Utbildning i tatueringsborttagning i Göteborg",
+      "en": "Tattoo removal training in Gothenburg"
+    },
+    "intro": [
+      {
+        "sv": "Hos Plaza Di Laura i Göteborg erbjuder vi grundkurs i LIFT Ink Removal, en yrkesförberedande utbildning för dig som vill arbeta med säker och effektiv borttagning av kosmetisk tatuering.",
+        "en": "At Plaza Di Laura in Gothenburg we offer a foundation course in LIFT Ink Removal, professional training for anyone who wants to work with safe, effective removal of cosmetic tattoos."
+      },
+      {
+        "sv": "LIFT Ink Removal är en avancerad teknik där pigment löses upp och lyfts ut ur huden utan laser, vilket gör behandlingen skonsam men samtidigt effektiv. Under kursen får du lära dig både teori och praktik för att behandla olika typer av pigment och hudtyper på ett professionellt sätt.",
+        "en": "LIFT Ink Removal is an advanced technique in which pigment is dissolved and lifted out of the skin without laser, making the treatment gentle yet effective. On the course you learn both theory and practice so you can treat different pigments and skin types professionally."
+      }
+    ],
+    "methods": null,
+    "learn": {
+      "title": {
+        "sv": "Vad lär du dig i utbildningen?",
+        "en": "What will you learn?"
+      },
+      "items": [
+        {
+          "sv": "Tekniker för säker borttagning av kosmetiska tatueringar",
+          "en": "Techniques for safe removal of cosmetic tattoos"
+        },
+        {
+          "sv": "Anpassa behandlingen efter hudtyp, pigmentfärg och tatueringens placering",
+          "en": "Adapting the treatment to skin type, pigment colour and tattoo placement"
+        },
+        {
+          "sv": "Hantering av förväntningar och eftervård",
+          "en": "Managing expectations and aftercare"
+        },
+        {
+          "sv": "Hygien, säkerhet och kundhantering",
+          "en": "Hygiene, safety and client care"
+        },
+        {
+          "sv": "Praktisk träning med korrekt teknik och behandlingsprotokoll",
+          "en": "Hands-on practice with correct technique and treatment protocols"
+        }
+      ]
+    },
+    "signatureTechnique": null,
+    "days": null,
+    "format": null,
+    "included": null,
+    "highlights": [
+      {
+        "sv": "Max 2 elever per kurstillfälle",
+        "en": "Max 2 students per course date"
+      },
+      {
+        "sv": "Avbetalning med Qliro",
+        "en": "Pay in instalments with Qliro"
+      },
+      {
+        "sv": "Skräddarsy din utbildning, välj metoder fritt",
+        "en": "Tailor your training, choose any methods you like"
+      }
+    ],
+    "price": null,
+    "priceNote": null,
+    "pdf": null,
+    "career": null,
+    "people": null,
+    "extra": [
+      {
+        "title": null,
+        "paragraphs": [
+          {
+            "sv": "Efter utbildningen kan du arbeta självständigt med LIFT Ink Removal och erbjuda kunder professionell och skonsam borttagning av tatueringar.",
+            "en": "After the course you can work independently with LIFT Ink Removal and offer clients professional, gentle tattoo removal."
+          }
+        ],
+        "items": []
+      }
+    ],
+    "seo": {
+      "title": {
+        "sv": "Utbildning i LIFT Ink Removal, Göteborg | Plaza Di Laura",
+        "en": "LIFT Ink Removal Training in Gothenburg | Plaza Di Laura"
+      },
+      "description": {
+        "sv": "Grundkurs i LIFT Ink Removal i Göteborg: borttagning av kosmetisk tatuering utan laser, anpassad efter hudtyp och pigment. Max 2 elever per kurstillfälle.",
+        "en": "LIFT Ink Removal foundation course in Gothenburg: removing cosmetic tattoos without laser, adapted to skin type and pigment. Max 2 students per course date."
+      }
+    }
+  }
+]

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="sv" data-lang="sv" data-theme="light" data-title-sv="Kundkort | Plaza Di Laura" data-title-en="Client records | Plaza Di Laura">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kundkort | Plaza Di Laura</title>
+<meta name="description" content="Prototyp av Plaza Di Lauras kundkort för personal: klienthistorik, behandlingar, bokningar, samtycke, betalningar, hälsodeklaration, dokumentationsbilder och kontakt." data-en-content="Prototype of Plaza Di Laura&#x27;s staff client records: history, treatments, bookings, consent, payments, health declaration, documentation photos and contact.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://bylaura.se/kundkort">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Plaza Di Laura">
+<meta property="og:locale" content="sv_SE">
+<meta property="og:title" content="Kundkort | Plaza Di Laura" data-en-content="Client records | Plaza Di Laura">
+<meta property="og:description" content="Prototyp av Plaza Di Lauras kundkort för personal: klienthistorik, behandlingar, bokningar, samtycke, betalningar, hälsodeklaration, dokumentationsbilder och kontakt." data-en-content="Prototype of Plaza Di Laura&#x27;s staff client records: history, treatments, bookings, consent, payments, health declaration, documentation photos and contact.">
+<meta property="og:url" content="https://bylaura.se/kundkort">
+<meta property="og:image" content="https://bylaura.se/assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f7f3ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#171413" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/img/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/jost-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/cormorant-garamond-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css?v=834d8116">
+<script>(function(d){var r=d.documentElement,t=null,l=null,i=null;try{t=localStorage.getItem('pdl-theme');l=localStorage.getItem('pdl-lang');i=sessionStorage.getItem('pdl-intro')}catch(e){}
+if(t==='dark')r.setAttribute('data-theme','dark');if(l==='en'){r.setAttribute('data-lang','en');r.classList.add('i18n-pending')}
+var m=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;if(!m&&'IntersectionObserver'in window)r.classList.add('reveal-on');
+if(/[?&]intro(?:[=&]|$)/.test(location.search))i=null;if(!m&&!i)r.classList.add('has-loader','loader-hold');setTimeout(function(){if(!window.__pdlReady){r.classList.remove('reveal-on','i18n-pending','has-loader','loader-hold')}},2500)})(document);</script>
+<script defer src="assets/js/site.js?v=e7a26fe5"></script>
+<!-- Analytics: add GA4 or GTM here in production, loaded only after cookie consent. -->
+<link rel="stylesheet" href="assets/css/app.css?v=d83d3227">
+<script defer src="assets/js/kundkort.js?v=900ecdfe"></script>
+</head>
+<body class="app-body">
+<a class="skip" href="#app-main"><span data-en="Skip to content">Hoppa till innehållet</span></a>
+<header class="app-bar">
+  <a class="brand-link" href="index.html" aria-label="Plaza Di Laura, till startsidan" data-en-aria="Plaza Di Laura, home"><img class="logo-dark" src="assets/img/logo-wordmark-dark.png" width="1121" height="104" alt="Plaza Di Laura"><img class="logo-light" src="assets/img/logo-wordmark-light.png" width="1121" height="104" alt="Plaza Di Laura"></a>
+  <h1 class="app-bar__title" data-en="Client records">Kundkort</h1>
+  <span class="demo-tag">Demo</span>
+  <div class="app-bar__tools"><button type="button" class="app-bar__phone" data-phone-open><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg><span data-en="Phone view">Mobilvy</span></button><a class="app-bar__site" href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg><span data-en="Back to website">Till webbplatsen</span></a><div class="lang-switch" role="group" aria-label="Välj språk" data-en-aria="Choose language"><button type="button" value="sv" aria-pressed="true" lang="sv">SV</button><button type="button" value="en" aria-pressed="false" lang="en">EN</button></div><button type="button" class="icon-btn theme-btn" aria-label="Byt mellan ljust och mörkt läge" data-en-aria="Switch between light and dark mode" aria-pressed="false"><svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg><svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg></button></div>
+</header>
+<main>
+  <section class="login">
+    <div class="login__card">
+      <img class="logo-dark" src="assets/img/logo-wordmark-dark.png" width="1121" height="104" alt="Plaza Di Laura"><img class="logo-light" src="assets/img/logo-wordmark-light.png" width="1121" height="104" alt="Plaza Di Laura">
+      <h2 data-en="Sign in">Logga in</h2>
+      <p data-en="Client records for Plaza Di Laura. Staff only.">Kundkort för Plaza Di Laura. Endast personal.</p>
+      <div class="login__btns">
+        <button type="button" class="btn btn--primary" data-login><span data-en="Sign in with BankID">Logga in med BankID</span></button>
+        <button type="button" class="btn btn--ghost" data-login><span data-en="Sign in with email">Logga in med e-post</span></button>
+      </div>
+      <div class="login__wait" hidden role="status"><span class="spinner" aria-hidden="true"></span><p data-en="Open the BankID app on your phone">Öppna BankID-appen på din telefon</p></div>
+      <p class="small muted" data-en="Prototype with made-up example clients. No real client data is shown.">Prototyp med påhittade exempelkunder. Inga riktiga kunduppgifter visas.</p>
+    </div>
+  </section>
+  <div class="app" hidden>
+    <aside class="app-list" aria-label="Klientlista" data-en-aria="Client list">
+      <div class="app-list__head">
+        <h2 data-en="Clients">Klienter</h2>
+        <label class="app-search"><span class="sr-only"><span data-en="Search clients">Sök klient</span></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input type="search" autocomplete="off" placeholder="Sök på namn eller e-post" data-en-ph="Search by name or email"></label>
+        <div class="app-filters" role="group" aria-label="Filtrera klienter" data-en-aria="Filter clients"></div>
+      </div>
+      <div class="app-stats"></div>
+      <ul class="client-list"></ul>
+    </aside>
+    <div class="app-main" id="app-main" aria-live="polite"></div>
+  </div>
+</main>
+<div class="phone-stage" hidden role="dialog" aria-modal="true" aria-label="Kundkort i mobilvy" data-en-aria="Client records in phone view">
+  <div class="phone-stage__copy">
+    <img class="logo-dark" src="assets/img/logo-wordmark-dark.png" width="1121" height="104" alt="Plaza Di Laura"><img class="logo-light" src="assets/img/logo-wordmark-light.png" width="1121" height="104" alt="Plaza Di Laura">
+    <span class="label" data-en="Client record">Kundkort</span>
+    <span class="phone-stage__rule" aria-hidden="true"></span>
+    <h2 data-en="The whole client record on your phone">Hela kundkortet i telefonen</h2>
+    <p data-en="The same client record as on the computer, built for the phone. Click around inside the phone: open a client, move between sections and compare before and after.">Samma kundkort som på datorn, byggt för mobilen. Klicka runt i telefonen: öppna en klient, gå mellan delarna och jämför före och efter.</p>
+    <button type="button" class="btn btn--ghost" data-phone-close><span data-en="Close phone view">Stäng mobilvy</span></button>
+  </div>
+  <div class="device"><iframe title="Kundkort" src="about:blank" loading="lazy"></iframe></div>
+</div>
+<dialog class="app-modal"><div class="app-modal__head"><h2></h2><button type="button" class="icon-btn app-modal__close" aria-label="Stäng" data-en-aria="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div><div class="app-modal__body"></div></dialog>
+<div class="toast" role="status" aria-live="polite"></div>
+<script type="application/json" id="kk-data">{"treatments": {"puderbryn": {"name": {"sv": "Puderbryn", "en": "Powder brows"}, "group": "pmu"}, "strokes": {"name": {"sv": "Strokes", "en": "Hair strokes"}, "group": "pmu"}, "lappar": {"name": {"sv": "Läppar", "en": "Lips"}, "group": "pmu"}, "fraknar": {"name": {"sv": "Fräknar", "en": "Freckles"}, "group": "pmu"}, "lashliner": {"name": {"sv": "Lashliner", "en": "Lash liner"}, "group": "pmu"}, "microneedling": {"name": {"sv": "Microneedling", "en": "Microneedling"}, "group": "skin"}, "smp": {"name": {"sv": "SMP", "en": "SMP"}, "group": "scalp"}, "lift": {"name": {"sv": "LIFT Ink Removal", "en": "LIFT Ink Removal"}, "group": "removal"}, "fettfrysning": {"name": {"sv": "Fettfrysning", "en": "Fat freezing"}, "group": "body"}}, "img": {"bryn": {"before": "assets/img/ba-bryn-before-640.webp", "after": "assets/img/ba-bryn-after-640.webp"}, "lappar": {"before": "assets/img/ba-lappar-before-640.webp", "after": "assets/img/ba-lappar-after-640.webp"}, "fraknar": {"before": "assets/img/ba-fraknar-before-640.webp", "after": "assets/img/ba-fraknar-after-640.webp"}}, "avatars": {"anna": "assets/img/result-powder-brows-strokes-front-640.webp", "maria": "assets/img/ba-lappar-after-640.webp", "sara": "assets/img/ba-fraknar-after-640.webp", "johan": "assets/img/smp-practitioner-scalp-640.webp", "karin": "assets/img/result-microblading-before-after-640.webp", "elin": "assets/img/academy-training-kit-table-640.webp"}, "courseName": {"sv": "Signature PMU Artist Program", "en": "Signature PMU Artist Program"}, "coursePrice": {"sv": "55 000 kr", "en": "SEK 55,000"}}</script>
+</body>
+</html>

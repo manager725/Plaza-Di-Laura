@@ -1,0 +1,1113 @@
+[
+  {
+    "slug": "puderbryn",
+    "handle": "puderbryn-ombrebryn",
+    "group": "pmu",
+    "name": {
+      "sv": "Puderbryn",
+      "en": "Powder brows"
+    },
+    "fullName": {
+      "sv": "Ögonbryn Ombre/Puder",
+      "en": "Ombre/Powder Brows"
+    },
+    "tagline": {
+      "sv": "Kosmetisk tatuering, ögonbryn puderbryn/skuggning inkl. återbesök",
+      "en": "Cosmetic tattoo, powder/shaded brows, follow-up visit included"
+    },
+    "short": {
+      "sv": "Mjukt skuggade, naturliga bryn med en pudrad effekt, i en form anpassad efter dina ansiktsmått.",
+      "en": "Softly shaded, natural brows with a powdered effect, in a shape tailored to your facial proportions."
+    },
+    "h1": {
+      "sv": "Puderbryn i Göteborg",
+      "en": "Powder brows in Gothenburg"
+    },
+    "intro": [
+      {
+        "sv": "Vill du ha mjukt markerade, jämna och naturligt skuggade bryn? Med puderbryn, även kallat ombrebryn eller skuggning, skapar vi en elegant, pudrad effekt som ger fyllighet och definition utan skarpa kanter.",
+        "en": "Would you like softly defined, even and naturally shaded brows? With powder brows, also known as ombre brows or shading, we create an elegant, powdered effect that adds fullness and definition without harsh edges."
+      }
+    ],
+    "benefits": null,
+    "process": {
+      "title": {
+        "sv": "Hur går behandlingen till?",
+        "en": "How does the treatment work?"
+      },
+      "paragraphs": [
+        {
+          "sv": "Laura mäter och målar en form anpassad efter dina ansiktsmått. Därefter väljer ni tillsammans en färg som passar din hudtyp och underton. Resultatet blir verklighetstroget och naturligt.",
+          "en": "Laura measures and draws a shape tailored to your facial proportions. You then choose a colour together that suits your skin type and undertone. The result is lifelike and natural."
+        },
+        {
+          "sv": "Med en premiummaskin speciellt framtagen för semi-permanent kosmetisk tatuering skuggas pigmentet in i lager och skapar en pudrig effekt. Vi bedövar med salva före och under behandlingen och du känner ingen smärta eller obehag.",
+          "en": "Using a premium machine designed specifically for semi-permanent cosmetic tattooing, the pigment is shaded in layers to create a powdery effect. We apply numbing cream before and during the treatment, so you feel no pain or discomfort."
+        },
+        {
+          "sv": "Lauras egenutvecklade No Trauma-teknik lämnar inga blåmärken, ingen svullnad och läkningen bildar inga skorpor.",
+          "en": "Laura's own No Trauma technique leaves no bruising and no swelling, and no scabs form as it heals."
+        }
+      ]
+    },
+    "noTrauma": null,
+    "facts": [
+      {
+        "label": {
+          "sv": "Hållbarhet",
+          "en": "How long it lasts"
+        },
+        "value": {
+          "sv": "Ca 1,5–3 år, ej permanent",
+          "en": "Approx. 1.5–3 years, not permanent"
+        }
+      },
+      {
+        "label": {
+          "sv": "Återbesök",
+          "en": "Follow-up visit"
+        },
+        "value": {
+          "sv": "Ingår, efter ca 4–6 veckor för ett färdigt resultat",
+          "en": "Included, after approx. 4–6 weeks for the finished result"
+        }
+      },
+      {
+        "label": {
+          "sv": "Refill",
+          "en": "Refill"
+        },
+        "value": {
+          "sv": "Bör göras inom 12 månader. Vill du inte göra en refill kan du låta tatueringen läka bort.",
+          "en": "Should be done within 12 months. If you prefer not to have a refill, the tattoo can be left to fade."
+        }
+      },
+      {
+        "label": {
+          "sv": "Bedövning",
+          "en": "Numbing"
+        },
+        "value": {
+          "sv": "Bedövningssalva före och under behandlingen",
+          "en": "Numbing cream before and during the treatment"
+        }
+      },
+      {
+        "label": {
+          "sv": "Hudtyper",
+          "en": "Skin types"
+        },
+        "value": {
+          "sv": "Passar alla hudtyper",
+          "en": "Suits all skin types"
+        }
+      },
+      {
+        "label": {
+          "sv": "Eftervård",
+          "en": "Aftercare"
+        },
+        "value": {
+          "sv": "Ingår",
+          "en": "Included"
+        }
+      }
+    ],
+    "notFor": null,
+    "before": {
+      "title": {
+        "sv": "Viktigt att tänka på innan behandling",
+        "en": "Before your treatment"
+      },
+      "groups": [
+        {
+          "when": {
+            "sv": "Dagen innan",
+            "en": "The day before"
+          },
+          "items": [
+            {
+              "sv": "Ta det lugnt med solning och alkohol.",
+              "en": "Go easy on sunbathing and alcohol."
+            }
+          ]
+        },
+        {
+          "when": {
+            "sv": "3 timmar innan behandling",
+            "en": "3 hours before your treatment"
+          },
+          "items": [
+            {
+              "sv": "Undvik koffein",
+              "en": "Avoid caffeine"
+            },
+            {
+              "sv": "Undvik Ipren",
+              "en": "Avoid Ipren (ibuprofen)"
+            },
+            {
+              "sv": "Undvik Treo",
+              "en": "Avoid Treo (aspirin)"
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    "contraindications": {
+      "title": {
+        "sv": "Inför behandling får du inte",
+        "en": "You cannot have the treatment if you"
+      },
+      "items": [
+        {
+          "sv": "Vara gravid",
+          "en": "Are pregnant"
+        },
+        {
+          "sv": "Äta blodförtunnande medicin",
+          "en": "Take blood-thinning medication"
+        },
+        {
+          "sv": "Ha sår, utslag eller eksem på området",
+          "en": "Have wounds, a rash or eczema in the area"
+        },
+        {
+          "sv": "Ha någon blodsmittande sjukdom",
+          "en": "Have a blood-borne disease"
+        },
+        {
+          "sv": "Vara under 18 år",
+          "en": "Are under 18"
+        }
+      ],
+      "note": {
+        "sv": "Om du har bokat tid och vi inte kan utföra behandlingen på grund av någon av kontraindikationerna ovan debiteras 50 %.",
+        "en": "If you have booked and we cannot carry out the treatment because of any of the contraindications above, a 50% charge applies."
+      }
+    },
+    "consultation": false,
+    "cancellation": {
+      "sv": "På kosmetisk tatuering gäller avbokning minst 24 timmar innan behandling. När du bokar din behandling godkänner du automatiskt dessa villkor.",
+      "en": "Cosmetic tattoo appointments must be cancelled at least 24 hours before the treatment. By booking, you automatically accept these terms."
+    },
+    "people": null,
+    "extra": [],
+    "seo": {
+      "title": {
+        "sv": "Puderbryn i Göteborg, kosmetisk tatuering | Plaza Di Laura",
+        "en": "Powder Brows in Gothenburg, Cosmetic Tattoo | Plaza Di Laura"
+      },
+      "description": {
+        "sv": "Puderbryn (ombrebryn) i Göteborg hos Laura Lindqvist: mjukt skuggade, naturliga bryn anpassade efter ditt ansikte. Varar ca 1,5–3 år och återbesök ingår.",
+        "en": "Powder brows (ombre brows) in Gothenburg with Laura Lindqvist: softly shaded, natural brows shaped to your face. Lasts approx. 1.5–3 years, follow-up included."
+      }
+    }
+  },
+  {
+    "slug": "strokes",
+    "handle": "microblading",
+    "group": "pmu",
+    "name": {
+      "sv": "Strokes",
+      "en": "Hair strokes"
+    },
+    "fullName": {
+      "sv": "Ögonbryn Strokes",
+      "en": "Hair-Stroke Brows"
+    },
+    "tagline": {
+      "sv": "Kosmetisk tatuering, microblading 3D/nanostrokes inkl. återbesök",
+      "en": "Cosmetic tattoo, 3D microblading/nanostrokes, follow-up visit included"
+    },
+    "short": {
+      "sv": "Realistiska, hårstråliknande bryn som jämnar till formen och fyller ut där det saknas strån.",
+      "en": "Realistic, hair-like strokes that even out the shape of your brows and fill in where hairs are missing."
+    },
+    "h1": {
+      "sv": "Microblading och strokes i Göteborg",
+      "en": "Microblading and hair strokes in Gothenburg"
+    },
+    "intro": [
+      {
+        "sv": "Drömmer du om naturligt fylliga och perfekt formade bryn? Med semi-permanent kosmetisk tatuering (microblading) skapar vi realistiska, hårstråliknande bryn som framhäver dina ansiktsdrag på ett mjukt och harmoniskt sätt.",
+        "en": "Do you dream of naturally full, perfectly shaped brows? With semi-permanent cosmetic tattooing (microblading) we create realistic, hair-like brows that bring out your features in a soft and harmonious way."
+      }
+    ],
+    "benefits": {
+      "title": {
+        "sv": "Vad kan kosmetisk tatuering med stråteknik göra?",
+        "en": "What can hair-stroke cosmetic tattooing do?"
+      },
+      "items": [
+        {
+          "sv": "Skapa en jämnare form",
+          "en": "Create a more even shape"
+        },
+        {
+          "sv": "Fylla ut där det saknas strån",
+          "en": "Fill in where hairs are missing"
+        }
+      ]
+    },
+    "process": {
+      "title": {
+        "sv": "Hur går behandlingen till?",
+        "en": "How does the treatment work?"
+      },
+      "paragraphs": [
+        {
+          "sv": "Tillsammans med Laura kommer ni överens om färg samt vad du har för specifika önskemål, vilka problem du upplever och hur du önskar att resultatet ska se ut.",
+          "en": "Together with Laura you agree on the colour and talk through your specific wishes, any problems you have and how you would like the result to look."
+        },
+        {
+          "sv": "Därefter mäter och målar Laura upp en form utifrån dina förutsättningar, där hon jämnar till dina bryn och fyller ut med strån där det saknas, oftast vid starten, vid högsta punkten och i brynsvansen.",
+          "en": "Laura then measures and draws a shape based on your features, evening out your brows and adding strokes where hairs are missing, usually at the start, at the highest point and in the tail."
+        },
+        {
+          "sv": "Bedövningssalva appliceras före och under hela behandlingen.",
+          "en": "Numbing cream is applied before and throughout the treatment."
+        },
+        {
+          "sv": "Laura använder endast premiummaskiner speciellt framtagna för semi-permanent kosmetisk tatuering, samt premiumnålar och premiumpigment. Laura tillämpar sin egenutvecklade No Trauma-teknik, vilket innebär att:",
+          "en": "Laura only uses premium machines designed specifically for semi-permanent cosmetic tattooing, together with premium needles and pigments. She works with her own No Trauma technique, which means that:"
+        }
+      ]
+    },
+    "noTrauma": [
+      {
+        "sv": "Du bildar inga skorpor",
+        "en": "You will not form scabs"
+      },
+      {
+        "sv": "Du får inga blåmärken",
+        "en": "You will not bruise"
+      },
+      {
+        "sv": "Ingen svullnad uppstår",
+        "en": "No swelling occurs"
+      },
+      {
+        "sv": "Du upplever ingen smärta under behandlingen",
+        "en": "You feel no pain during the treatment"
+      },
+      {
+        "sv": "Resultatet blir väldigt fint och naturligt",
+        "en": "The result is very beautiful and natural"
+      }
+    ],
+    "facts": [
+      {
+        "label": {
+          "sv": "Återbesök",
+          "en": "Follow-up visit"
+        },
+        "value": {
+          "sv": "Ingår, efter ca 4–5 veckor",
+          "en": "Included, after approx. 4–5 weeks"
+        }
+      },
+      {
+        "label": {
+          "sv": "Refill",
+          "en": "Refill"
+        },
+        "value": {
+          "sv": "Inom 12 månader",
+          "en": "Within 12 months"
+        }
+      },
+      {
+        "label": {
+          "sv": "Bedövning",
+          "en": "Numbing"
+        },
+        "value": {
+          "sv": "Bedövningssalva före och under hela behandlingen",
+          "en": "Numbing cream before and throughout the treatment"
+        }
+      },
+      {
+        "label": {
+          "sv": "Nanostrokes med maskin",
+          "en": "Machine nanostrokes"
+        },
+        "value": {
+          "sv": "1 000 kr tillägg",
+          "en": "SEK 1,000 extra"
+        }
+      }
+    ],
+    "notFor": {
+      "title": {
+        "sv": "Microblading passar inte dig som har",
+        "en": "Microblading is not suitable if you have"
+      },
+      "items": [
+        {
+          "sv": "Fet hy",
+          "en": "Oily skin"
+        },
+        {
+          "sv": "Förstorade porer",
+          "en": "Enlarged pores"
+        },
+        {
+          "sv": "Väldigt lite strån",
+          "en": "Very few brow hairs"
+        },
+        {
+          "sv": "Gammal maskintatuering",
+          "en": "An old machine tattoo"
+        }
+      ],
+      "note": {
+        "sv": "Då kan vi i stället välja nanostrokes med maskin (1 000 kr tillägg). Vid fet hy flyter stråna ut och blir till fläckar. Har du väldigt lite egna brynhår får de intatuerade stråna inget skydd och nöts bort inom cirka 3 månader på grund av yttre påverkan som dagsljus, solljus och att man sover på sidan. Vi rekommenderar därför hellre skuggade bryn (puderbryn).",
+        "en": "In that case we can choose machine nanostrokes instead (SEK 1,000 extra). On oily skin the strokes blur and turn into patches. If you have very few brow hairs of your own, the tattooed strokes have no protection and wear away within about 3 months from daylight, sunlight and sleeping on your side. We therefore recommend shaded brows (powder brows) instead."
+      }
+    },
+    "before": null,
+    "contraindications": null,
+    "consultation": true,
+    "cancellation": {
+      "sv": "På kosmetisk tatuering gäller avbokning minst 24 timmar innan behandling. När du bokar din behandling godkänner du automatiskt dessa villkor.",
+      "en": "Cosmetic tattoo appointments must be cancelled at least 24 hours before the treatment. By booking, you automatically accept these terms."
+    },
+    "people": null,
+    "extra": [],
+    "seo": {
+      "title": {
+        "sv": "Microblading och strokes i Göteborg | Plaza Di Laura",
+        "en": "Microblading and Hair Strokes, Gothenburg | Plaza Di Laura"
+      },
+      "description": {
+        "sv": "Microblading och nanostrokes i Göteborg: realistiska, hårstråliknande bryn som fyller ut där strån saknas. Återbesök ingår. Kostnadsfri konsultation.",
+        "en": "Microblading and nanostrokes in Gothenburg: realistic hair-like strokes that fill in where brow hairs are missing. Follow-up visit included. Free consultation."
+      }
+    }
+  },
+  {
+    "slug": "lappar",
+    "handle": "semi-permanent-tatuering-lappar",
+    "group": "pmu",
+    "name": {
+      "sv": "Läppar",
+      "en": "Lips"
+    },
+    "fullName": {
+      "sv": "Semi-permanent tatuering läppar",
+      "en": "Semi-Permanent Lip Tattoo"
+    },
+    "tagline": {
+      "sv": "Kosmetisk tatuering läppar inkl. återbesök",
+      "en": "Cosmetic lip tattoo, follow-up visit included"
+    },
+    "short": {
+      "sv": "Förstärker läpparnas naturliga färg, jämnar ut tonen och ger ett fylligare intryck utan fillers.",
+      "en": "Enhances the natural colour of your lips, evens out the tone and gives a fuller look without fillers."
+    },
+    "h1": {
+      "sv": "Läpptatuering i Göteborg",
+      "en": "Lip tattoo in Gothenburg"
+    },
+    "intro": [
+      {
+        "sv": "På Plaza Di Laura i Göteborg erbjuder vi semi-permanent tatuering av läppar med fokus på subtila, eleganta och naturliga resultat.",
+        "en": "At Plaza Di Laura in Gothenburg we offer semi-permanent lip tattooing focused on subtle, elegant and natural results."
+      },
+      {
+        "sv": "Ger ett fylligare intryck utan fillers.",
+        "en": "A fuller look without fillers."
+      }
+    ],
+    "benefits": {
+      "title": {
+        "sv": "Vad kan kosmetisk tatuering läppar göra?",
+        "en": "What can a cosmetic lip tattoo do?"
+      },
+      "items": [
+        {
+          "sv": "Förstärka läpparnas naturliga färg",
+          "en": "Enhance the natural colour of your lips"
+        },
+        {
+          "sv": "Skapa en jämnare ton över hela läppen",
+          "en": "Create a more even tone across the whole lip"
+        },
+        {
+          "sv": "Definiera konturen subtilt och naturligt",
+          "en": "Define the contour subtly and naturally"
+        },
+        {
+          "sv": "Förstora läpparna en aning på ett naturligt sätt",
+          "en": "Make the lips slightly larger in a natural way"
+        }
+      ]
+    },
+    "process": {
+      "title": {
+        "sv": "Hur går behandlingen till?",
+        "en": "How does the treatment work?"
+      },
+      "paragraphs": [
+        {
+          "sv": "Tillsammans med Laura kommer ni överens om färg samt vad du har för specifika önskemål, vilka problem du upplever och hur du önskar att resultatet ska se ut.",
+          "en": "Together with Laura you agree on the colour and talk through your specific wishes, any problems you have and how you would like the result to look."
+        },
+        {
+          "sv": "Därefter mäter och målar Laura upp en form utifrån dina förutsättningar, där hon jämnar till dina konturer, inkluderar den vita randen runt läpparna som tillhör läppvävnaden (den så kallade ringmuskeln) och skapar en naturlig skuggning som smälter ihop med din egen läppfärg.",
+          "en": "Laura then measures and draws a shape based on your features, evening out your contours, including the pale border around the lips that belongs to the lip tissue (the orbicularis muscle), and creating a natural shading that blends with your own lip colour."
+        },
+        {
+          "sv": "Bedövningssalva appliceras före och under hela behandlingen. Resultatet blir jämna läppar, en aning större, med en fin och fräsch färg.",
+          "en": "Numbing cream is applied before and throughout the treatment. The result is even lips, slightly larger, with a lovely fresh colour."
+        },
+        {
+          "sv": "Laura använder endast premiummaskiner speciellt framtagna för semi-permanent kosmetisk tatuering, samt premiumnålar och premiumpigment. Laura tillämpar sin egenutvecklade No Trauma-teknik, vilket innebär att:",
+          "en": "Laura only uses premium machines designed specifically for semi-permanent cosmetic tattooing, together with premium needles and pigments. She works with her own No Trauma technique, which means that:"
+        }
+      ]
+    },
+    "noTrauma": [
+      {
+        "sv": "Du bildar inga skorpor",
+        "en": "You will not form scabs"
+      },
+      {
+        "sv": "Du får inga blåmärken",
+        "en": "You will not bruise"
+      },
+      {
+        "sv": "Ingen svullnad uppstår",
+        "en": "No swelling occurs"
+      },
+      {
+        "sv": "Du upplever ingen smärta under behandlingen",
+        "en": "You feel no pain during the treatment"
+      },
+      {
+        "sv": "Resultatet blir väldigt fint och naturligt",
+        "en": "The result is very beautiful and natural"
+      }
+    ],
+    "facts": [
+      {
+        "label": {
+          "sv": "Återbesök",
+          "en": "Follow-up visit"
+        },
+        "value": {
+          "sv": "Ingår, efter ca 4–5 veckor",
+          "en": "Included, after approx. 4–5 weeks"
+        }
+      },
+      {
+        "label": {
+          "sv": "Refill",
+          "en": "Refill"
+        },
+        "value": {
+          "sv": "Inom 12 månader",
+          "en": "Within 12 months"
+        }
+      },
+      {
+        "label": {
+          "sv": "Bedövning",
+          "en": "Numbing"
+        },
+        "value": {
+          "sv": "Bedövningssalva före och under hela behandlingen",
+          "en": "Numbing cream before and throughout the treatment"
+        }
+      },
+      {
+        "label": {
+          "sv": "Eftervård",
+          "en": "Aftercare"
+        },
+        "value": {
+          "sv": "Ingår",
+          "en": "Included"
+        }
+      }
+    ],
+    "notFor": null,
+    "before": {
+      "title": {
+        "sv": "Viktigt innan behandling",
+        "en": "Before your treatment"
+      },
+      "groups": [
+        {
+          "when": {
+            "sv": "Ca 3 dagar innan",
+            "en": "About 3 days before"
+          },
+          "items": [
+            {
+              "sv": "Peela läpparna och återfukta dem, till exempel med vitt vaselin.",
+              "en": "Exfoliate your lips and moisturise them, for example with white petroleum jelly."
+            }
+          ]
+        }
+      ],
+      "note": {
+        "sv": "Läpparna bör inte vara torra, eftersom pigmentet då har svårare att fastna.",
+        "en": "Your lips should not be dry, as the pigment then has a harder time taking."
+      }
+    },
+    "contraindications": null,
+    "consultation": true,
+    "cancellation": null,
+    "people": null,
+    "extra": [],
+    "seo": {
+      "title": {
+        "sv": "Läpptatuering i Göteborg, semi-permanent | Plaza Di Laura",
+        "en": "Semi-Permanent Lip Tattoo in Gothenburg | Plaza Di Laura"
+      },
+      "description": {
+        "sv": "Semi-permanent läpptatuering i Göteborg: förstärkt naturlig färg, jämnare ton och en subtilt definierad kontur. Återbesök ingår. Kostnadsfri konsultation.",
+        "en": "Semi-permanent lip tattoo in Gothenburg: enhanced natural colour, a more even tone and a subtly defined contour. Follow-up visit included. Free consultation."
+      }
+    }
+  },
+  {
+    "slug": "fraknar",
+    "handle": "semi-permanenta-fraknar",
+    "group": "pmu",
+    "name": {
+      "sv": "Fräknar",
+      "en": "Freckles"
+    },
+    "fullName": {
+      "sv": "Semi-permanenta fräknar",
+      "en": "Semi-Permanent Freckles"
+    },
+    "tagline": {
+      "sv": "Semi-permanenta fräknar i Göteborg, för ett naturligt solkysst utseende",
+      "en": "Semi-permanent freckles in Gothenburg for a natural, sun-kissed look"
+    },
+    "short": {
+      "sv": "Realistiska fräknar i varierande storlek och nyans för ett mjukt, naturligt och solkysst uttryck.",
+      "en": "Realistic freckles in varying sizes and shades for a soft, natural, sun-kissed look."
+    },
+    "h1": {
+      "sv": "Semi-permanenta fräknar i Göteborg",
+      "en": "Semi-permanent freckles in Gothenburg"
+    },
+    "intro": [
+      {
+        "sv": "Hos Laura erbjuder vi semi-permanenta fräknar, en kosmetisk behandling som skapar ett mjukt, naturligt och solkysst uttryck. Med över 20 års erfarenhet inom kosmetisk tatuering arbetar Laura med tekniker som framhäver ansiktets naturliga karaktär.",
+        "en": "Laura offers semi-permanent freckles, a cosmetic treatment that creates a soft, natural, sun-kissed look. With over 20 years of experience in cosmetic tattooing, Laura works with techniques that bring out the natural character of your face."
+      },
+      {
+        "sv": "Behandlingen innebär att pigment förs ytligt in i huden för att skapa realistiska fräknar som smälter in i din naturliga hudton. Varje fräkne placeras individuellt i varierande storlek, nyans och intensitet för att efterlikna hur naturliga fräknar ser ut.",
+        "en": "Pigment is placed superficially in the skin to create realistic freckles that blend with your natural skin tone. Each freckle is placed individually, varying in size, shade and intensity, to mimic the way natural freckles look."
+      },
+      {
+        "sv": "Resultatet blir ett levande och naturligt utseende där fräknarna ser ut som en naturlig del av huden.",
+        "en": "The result is a lively, natural look in which the freckles appear to be a natural part of your skin."
+      }
+    ],
+    "benefits": {
+      "title": {
+        "sv": "Vad kan semi-permanenta fräknar ge?",
+        "en": "What can semi-permanent freckles give you?"
+      },
+      "items": [
+        {
+          "sv": "Ett naturligt solkysst utseende",
+          "en": "A natural, sun-kissed look"
+        },
+        {
+          "sv": "Mer liv och karaktär i ansiktet",
+          "en": "More life and character in your face"
+        },
+        {
+          "sv": "Förstärkning av befintliga fräknar",
+          "en": "Enhancement of existing freckles"
+        },
+        {
+          "sv": "Mjukare och mer levande hudton",
+          "en": "A softer, livelier skin tone"
+        },
+        {
+          "sv": "Ett naturligt resultat med eller utan smink",
+          "en": "A natural result with or without make-up"
+        }
+      ]
+    },
+    "process": null,
+    "noTrauma": null,
+    "facts": [],
+    "notFor": null,
+    "before": null,
+    "contraindications": null,
+    "consultation": false,
+    "cancellation": null,
+    "people": null,
+    "extra": [],
+    "seo": {
+      "title": {
+        "sv": "Semi-permanenta fräknar i Göteborg | Plaza Di Laura",
+        "en": "Semi-Permanent Freckles in Gothenburg | Plaza Di Laura"
+      },
+      "description": {
+        "sv": "Semi-permanenta fräknar i Göteborg hos Laura Lindqvist. Varje fräkne placeras individuellt i varierande storlek och nyans för ett naturligt, solkysst uttryck.",
+        "en": "Semi-permanent freckles in Gothenburg with Laura Lindqvist. Each freckle is placed individually, varying in size and shade, for a natural, sun-kissed look."
+      }
+    }
+  },
+  {
+    "slug": "lashliner",
+    "handle": "kosm-tatuering-lashliner",
+    "group": "pmu",
+    "name": {
+      "sv": "Lashliner",
+      "en": "Lash liner"
+    },
+    "fullName": {
+      "sv": "Lashliner",
+      "en": "Lash Liner"
+    },
+    "tagline": {
+      "sv": "Lashliner i Göteborg, subtil förstärkning av fransraden",
+      "en": "Lash liner in Gothenburg, a subtle enhancement of the lash line"
+    },
+    "short": {
+      "sv": "En mycket tunn förstärkning längs fransraden som ger illusionen av tätare fransar, utan synlig linje.",
+      "en": "A very fine enhancement along the lash line that creates the illusion of thicker lashes, with no visible line."
+    },
+    "h1": {
+      "sv": "Lashliner i Göteborg",
+      "en": "Lash liner in Gothenburg"
+    },
+    "intro": [
+      {
+        "sv": "Hos Laura erbjuder vi lashliner, en semi-permanent behandling som subtilt definierar fransraden och ger ögonen ett piggare, mer markerat uttryck. Med över 20 års erfarenhet inom kosmetisk tatuering arbetar Laura med noggranna och individuellt anpassade behandlingar som framhäver din naturliga form.",
+        "en": "Laura offers lash liner, a semi-permanent treatment that subtly defines the lash line and gives your eyes a brighter, more defined look. With over 20 years of experience in cosmetic tattooing, Laura works with careful, individually tailored treatments that bring out your natural shape."
+      },
+      {
+        "sv": "Pigmentet förs in mycket tunt längs fransraden för att skapa illusionen av tätare fransar, utan synlig linje ovanför ögat. Resultatet blir en diskret men effektiv förstärkning som ser helt naturlig ut.",
+        "en": "The pigment is placed very finely along the lash line to create the illusion of thicker lashes, with no visible line above the eye. The result is a discreet but effective enhancement that looks completely natural."
+      }
+    ],
+    "benefits": {
+      "title": {
+        "sv": "Vad kan lashliner göra?",
+        "en": "What can a lash liner do?"
+      },
+      "items": [
+        {
+          "sv": "Skapa illusionen av tätare fransar",
+          "en": "Create the illusion of thicker lashes"
+        },
+        {
+          "sv": "Markera ögat subtilt och naturligt",
+          "en": "Define the eye subtly and naturally"
+        },
+        {
+          "sv": "Ge ett piggt och definierat intryck",
+          "en": "Give a bright, defined look"
+        },
+        {
+          "sv": "Slippa daglig applicering av eyeliner",
+          "en": "Save you applying eyeliner every day"
+        },
+        {
+          "sv": "Förstärka ögats naturliga form utan synliga linjer",
+          "en": "Enhance the natural shape of the eye without visible lines"
+        }
+      ]
+    },
+    "process": null,
+    "noTrauma": null,
+    "facts": [],
+    "notFor": null,
+    "before": null,
+    "contraindications": null,
+    "consultation": false,
+    "cancellation": null,
+    "people": null,
+    "extra": [
+      {
+        "title": {
+          "sv": "Min filosofi: osynlig perfektion",
+          "en": "My philosophy: invisible perfection"
+        },
+        "paragraphs": [
+          {
+            "sv": "En lashliner ska inte se sminkad eller hård ut. Den ska ge intrycket av tätare fransar och mer definierade ögon, utan att någon kan sätta fingret på varför.",
+            "en": "A lash liner should never look made-up or harsh. It should give the impression of thicker lashes and more defined eyes, without anyone being able to put their finger on why."
+          }
+        ],
+        "items": []
+      }
+    ],
+    "seo": {
+      "title": {
+        "sv": "Lashliner i Göteborg, kosmetisk tatuering | Plaza Di Laura",
+        "en": "Lash Liner in Gothenburg, Cosmetic Tattoo | Plaza Di Laura"
+      },
+      "description": {
+        "sv": "Lashliner i Göteborg: pigment förs in mycket tunt längs fransraden för illusionen av tätare fransar, utan synlig linje. Individuellt anpassat av Laura.",
+        "en": "Lash liner in Gothenburg: pigment placed very finely along the lash line for the illusion of thicker lashes, with no visible line. Tailored to you by Laura."
+      }
+    }
+  },
+  {
+    "slug": "microneedling",
+    "handle": "microneedling",
+    "group": "skin",
+    "name": {
+      "sv": "Microneedling",
+      "en": "Microneedling"
+    },
+    "fullName": {
+      "sv": "Microneedling",
+      "en": "Microneedling"
+    },
+    "tagline": {
+      "sv": "Microneedling i Göteborg, effektiv hudföryngring och anti age",
+      "en": "Microneedling in Gothenburg for skin rejuvenation and anti-ageing"
+    },
+    "short": {
+      "sv": "En hudföryngrande behandling där tunna nålar skapar mikroskopiska kanaler i huden för att stimulera kollagenproduktionen.",
+      "en": "A skin-rejuvenating treatment in which fine needles create microscopic channels in the skin to stimulate collagen production."
+    },
+    "h1": {
+      "sv": "Microneedling i Göteborg",
+      "en": "Microneedling in Gothenburg"
+    },
+    "intro": [
+      {
+        "sv": "Hos Plaza Di Laura i Göteborg erbjuder vi microneedling, en av de mest vetenskapligt dokumenterade behandlingarna för hudföryngring, anti age och hudförbättring. Med över 20 års erfarenhet inom avancerad hudvård arbetar vi med resultatinriktade behandlingar som stärker huden på djupet.",
+        "en": "At Plaza Di Laura in Gothenburg we offer microneedling, one of the most scientifically documented treatments for skin rejuvenation, anti-ageing and skin improvement. With over 20 years of experience in advanced skincare, we focus on results-driven treatments that strengthen the skin from deep within."
+      },
+      {
+        "sv": "Microneedling är en avancerad hudbehandling där tunna, sterila nålar skapar mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin samt cellförnyelsen. Resultatet blir en fastare, jämnare och mer strålande hud.",
+        "en": "Microneedling is an advanced skin treatment in which fine, sterile needles create microscopic channels in the skin. This stimulates the skin's natural healing process and boosts the production of collagen and elastin as well as cell renewal. The result is firmer, smoother and more radiant skin."
+      }
+    ],
+    "benefits": {
+      "title": {
+        "sv": "Vad kan microneedling behandla?",
+        "en": "What can microneedling treat?"
+      },
+      "items": [
+        {
+          "sv": "Fina linjer och rynkor",
+          "en": "Fine lines and wrinkles"
+        },
+        {
+          "sv": "Akne och akneärr",
+          "en": "Acne and acne scars"
+        },
+        {
+          "sv": "Pigmenteringar",
+          "en": "Pigmentation"
+        },
+        {
+          "sv": "Stora porer och slapp hud",
+          "en": "Large pores and loose skin"
+        },
+        {
+          "sv": "Ojämn hudstruktur",
+          "en": "Uneven skin texture"
+        }
+      ]
+    },
+    "process": null,
+    "noTrauma": null,
+    "facts": [],
+    "notFor": null,
+    "before": null,
+    "contraindications": null,
+    "consultation": false,
+    "cancellation": null,
+    "people": null,
+    "extra": [],
+    "seo": {
+      "title": {
+        "sv": "Microneedling i Göteborg, hudföryngring | Plaza Di Laura",
+        "en": "Microneedling in Gothenburg, Anti-Ageing | Plaza Di Laura"
+      },
+      "description": {
+        "sv": "Microneedling i Göteborg på Plaza Di Laura. Tunna, sterila nålar stimulerar hudens kollagen. För fina linjer, akneärr, pigmenteringar och ojämn hudstruktur.",
+        "en": "Microneedling in Gothenburg at Plaza Di Laura. Fine, sterile needles stimulate the skin's collagen. For fine lines, acne scars, pigmentation and uneven texture."
+      }
+    }
+  },
+  {
+    "slug": "smp",
+    "handle": "smp",
+    "group": "scalp",
+    "name": {
+      "sv": "SMP",
+      "en": "SMP"
+    },
+    "fullName": {
+      "sv": "Skalp mikropigmentering (SMP)",
+      "en": "Scalp Micropigmentation (SMP)"
+    },
+    "tagline": {
+      "sv": "Skalp mikropigmentering (SMP) i Göteborg, naturlig hårillusion",
+      "en": "Scalp micropigmentation (SMP) in Gothenburg, a natural hair illusion"
+    },
+    "short": {
+      "sv": "En avancerad behandling som skapar intryck av tätare hår genom realistiska pigment i hårbotten.",
+      "en": "An advanced treatment that creates the impression of thicker hair with realistic pigment in the scalp."
+    },
+    "h1": {
+      "sv": "Skalp mikropigmentering (SMP) i Göteborg",
+      "en": "Scalp micropigmentation (SMP) in Gothenburg"
+    },
+    "intro": [
+      {
+        "sv": "SMP är en avancerad och icke-kirurgisk behandling som skapar illusionen av tätare hår eller ett naturligt rakat hårutseende. Metoden används för att behandla håravfall, tunnhårighet och alopecia samt för att kamouflera ärr från hårtransplantationer.",
+        "en": "SMP is an advanced, non-surgical treatment that creates the illusion of thicker hair or a natural shaved look. The method is used for hair loss, thinning hair and alopecia, and to camouflage scars from hair transplants."
+      }
+    ],
+    "benefits": null,
+    "process": null,
+    "noTrauma": null,
+    "facts": [],
+    "notFor": null,
+    "before": null,
+    "contraindications": null,
+    "consultation": false,
+    "cancellation": null,
+    "people": [
+      {
+        "name": "Robert Tomaszewski",
+        "role": {
+          "sv": "SMP-artist",
+          "en": "SMP artist"
+        },
+        "bio": [
+          {
+            "sv": "Behandlingen utförs av Robert Tomaszewski, en av branschens mest erfarna SMP-artister med över 13 års erfarenhet.",
+            "en": "The treatment is carried out by Robert Tomaszewski, one of the most experienced SMP artists in the industry, with over 13 years of experience."
+          },
+          {
+            "sv": "Robert och His Hair Sweden är medgrundare till metoden skalp mikropigmentering, som lanserades redan 2002 och i dag finns representerad på 21 kliniker världen över.",
+            "en": "Robert and His Hair Sweden are co-founders of the scalp micropigmentation method, which launched back in 2002 and is now represented at 21 clinics worldwide."
+          },
+          {
+            "sv": "Robert är internationellt erkänd inom SMP-branschen och har utbildat många av de artister som arbetar i Sverige i dag.",
+            "en": "Robert is internationally recognised in the SMP industry and has trained many of the artists working in Sweden today."
+          }
+        ]
+      }
+    ],
+    "extra": [
+      {
+        "title": {
+          "sv": "His Hair Sweden",
+          "en": "His Hair Sweden"
+        },
+        "paragraphs": [
+          {
+            "sv": "Tillsammans med vår andra verksamhet His Hair Sweden erbjuder vi skalp mikropigmentering (SMP) på Kungsgatan 11 i Göteborg.",
+            "en": "Together with our other business, His Hair Sweden, we offer scalp micropigmentation (SMP) at Kungsgatan 11 in Gothenburg."
+          }
+        ],
+        "items": []
+      }
+    ],
+    "seo": {
+      "title": {
+        "sv": "SMP i Göteborg, skalp mikropigmentering | Plaza Di Laura",
+        "en": "SMP in Gothenburg, Scalp Micropigmentation | Plaza Di Laura"
+      },
+      "description": {
+        "sv": "Skalp mikropigmentering (SMP) i Göteborg med Robert Tomaszewski. Icke-kirurgisk behandling som ger intryck av tätare hår vid håravfall och tunnhårighet.",
+        "en": "Scalp micropigmentation (SMP) in Gothenburg with Robert Tomaszewski. A non-surgical treatment that gives the look of thicker hair for hair loss and thinning."
+      }
+    }
+  },
+  {
+    "slug": "lift",
+    "handle": "lift-tatueringsborttagning",
+    "group": "removal",
+    "name": {
+      "sv": "LIFT Ink Removal",
+      "en": "LIFT Ink Removal"
+    },
+    "fullName": {
+      "sv": "LIFT tatueringsborttagning",
+      "en": "LIFT Tattoo Removal"
+    },
+    "tagline": {
+      "sv": "LIFT Ink Removal",
+      "en": "LIFT Ink Removal"
+    },
+    "short": {
+      "sv": "En skonsam metod för borttagning eller korrigering av oönskad tatuering och permanent makeup, utan laser.",
+      "en": "A gentle method for removing or correcting unwanted tattoos and permanent make-up, without laser."
+    },
+    "h1": {
+      "sv": "Tatueringsborttagning utan laser i Göteborg",
+      "en": "Laser-free tattoo removal in Gothenburg"
+    },
+    "intro": [
+      {
+        "sv": "LIFT är en avancerad metod för att ta bort pigment från huden utan laser.",
+        "en": "LIFT is an advanced method for removing pigment from the skin without laser."
+      },
+      {
+        "sv": "Behandlingen fungerar genom att en specialutvecklad remover-vätska appliceras i huden, vilket skapar en kontrollerad process där pigmentet gradvis dras upp till hudytan och försvinner genom kroppens naturliga läkningsprocess.",
+        "en": "A specially developed remover solution is applied into the skin, starting a controlled process in which the pigment is gradually drawn up to the surface and leaves through the body's natural healing process."
+      },
+      {
+        "sv": "LIFT Ink Removal är en skonsam och effektiv metod för borttagning eller korrigering av oönskad tatuering och permanent makeup. Slipp smärtsamma och dyra laserbehandlingar eller farliga syror som kan skada huden.",
+        "en": "LIFT Ink Removal is a gentle and effective way to remove or correct unwanted tattoos and permanent make-up. No painful, expensive laser sessions, and no harsh acids that can damage the skin."
+      }
+    ],
+    "benefits": null,
+    "process": null,
+    "noTrauma": null,
+    "facts": [],
+    "notFor": null,
+    "before": null,
+    "contraindications": null,
+    "consultation": false,
+    "cancellation": null,
+    "people": null,
+    "extra": [
+      {
+        "title": {
+          "sv": "Metoden är särskilt effektiv för",
+          "en": "The method is particularly effective for"
+        },
+        "paragraphs": [],
+        "items": [
+          {
+            "sv": "Felaktig microblading",
+            "en": "Microblading that has gone wrong"
+          },
+          {
+            "sv": "Missfärgade bryn (grå, blå eller röda toner)",
+            "en": "Discoloured brows (grey, blue or red tones)"
+          },
+          {
+            "sv": "Ojämn eller för mörk permanent makeup",
+            "en": "Uneven or overly dark permanent make-up"
+          },
+          {
+            "sv": "Felplacerade pigmenteringar",
+            "en": "Misplaced pigmentation"
+          }
+        ]
+      }
+    ],
+    "seo": {
+      "title": {
+        "sv": "Tatueringsborttagning i Göteborg, LIFT | Plaza Di Laura",
+        "en": "LIFT Laser-Free Tattoo Removal, Gothenburg | Plaza Di Laura"
+      },
+      "description": {
+        "sv": "LIFT Ink Removal i Göteborg: borttagning av pigment utan laser. För felaktig microblading, missfärgade bryn och för mörk eller felplacerad permanent makeup.",
+        "en": "LIFT Ink Removal in Gothenburg: pigment removal without laser. For microblading gone wrong, discoloured brows and permanent make-up that is too dark."
+      }
+    }
+  },
+  {
+    "slug": "fettfrysning",
+    "handle": "fettfrysning-cellulitreducering",
+    "group": "body",
+    "name": {
+      "sv": "Fettfrysning",
+      "en": "Fat freezing"
+    },
+    "fullName": {
+      "sv": "Fettfrysning & cellulitreducering",
+      "en": "Fat Freezing & Cellulite Reduction"
+    },
+    "tagline": {
+      "sv": "Proshock Ice™, fettreducering utan kirurgi i Göteborg",
+      "en": "Proshock Ice™, fat reduction without surgery in Gothenburg"
+    },
+    "short": {
+      "sv": "Proshock Ice™ kombinerar fettfrysning och stötvågsterapi för att reducera lokala fettdepåer och celluliter.",
+      "en": "Proshock Ice™ combines fat freezing and shockwave therapy to reduce local fat deposits and cellulite."
+    },
+    "h1": {
+      "sv": "Fettfrysning i Göteborg",
+      "en": "Fat freezing in Gothenburg"
+    },
+    "intro": [
+      {
+        "sv": "Proshock Ice™ är en avancerad och icke-kirurgisk behandling som kombinerar kryolipolys (fettfrysning) och stötvågsterapi för att reducera lokala fettdepåer och celluliter, vilket är unikt.",
+        "en": "Proshock Ice™ is an advanced, non-surgical treatment that combines cryolipolysis (fat freezing) with shockwave therapy to reduce local fat deposits and cellulite, a combination that is unique."
+      },
+      {
+        "sv": "Behandlingen är helt utan nålar, kirurgi eller återhämtningstid. Fettfrysning och cellulitreducering är en metod som minskar fett och jämnar ut huden för en slätare siluett.",
+        "en": "The treatment involves no needles, no surgery and no recovery time. Fat freezing and cellulite reduction is a method that reduces fat and smooths the skin for a sleeker silhouette."
+      },
+      {
+        "sv": "Hos oss på Plaza Di Laura är vi den enda kliniken i Göteborg som erbjuder denna välbeprövade teknik.",
+        "en": "Plaza Di Laura is the only clinic in Gothenburg offering this well-proven technique."
+      }
+    ],
+    "benefits": null,
+    "process": null,
+    "noTrauma": null,
+    "facts": [],
+    "notFor": null,
+    "before": null,
+    "contraindications": null,
+    "consultation": false,
+    "cancellation": null,
+    "people": null,
+    "extra": [
+      {
+        "title": {
+          "sv": "Om Proshock Ice™",
+          "en": "About Proshock Ice™"
+        },
+        "paragraphs": [
+          {
+            "sv": "Maskinen är av premiumkvalitet och tillverkad i Italien. Den har funnits på marknaden i över 15 år och används framgångsrikt av kliniker världen över. Den är noggrant beprövad och konkurrerar ut alla ”nya” maskiner som finns på marknaden.",
+            "en": "The machine is of premium quality and made in Italy. It has been on the market for over 15 years and is used successfully by clinics around the world. It is thoroughly proven and outperforms all the \"new\" machines on the market."
+          },
+          {
+            "sv": "Den arbetar säkert genom att flytta frysproben varje minut över det område som behandlas, till skillnad från de flesta andra frysmaskiner som fästs i flera minuter åt gången och kan orsaka köldskador.",
+            "en": "It works safely by moving the freezing probe across the treated area every minute, unlike most other freezing machines, which stay attached for several minutes at a time and can cause cold injuries."
+          },
+          {
+            "sv": "Proshock Ice är unik med sina kliniska studier som dokumenterar resultat och effekt. Den har skrivits om i media, till exempel i Aftonbladet, och används av flera kändisar och influencers med fantastiska resultat.",
+            "en": "Proshock Ice is unique in having clinical studies that document its results and effect. It has been covered in the media, for example in Aftonbladet, and is used by several celebrities and influencers with fantastic results."
+          }
+        ],
+        "items": []
+      },
+      {
+        "title": {
+          "sv": "Kliniska studier",
+          "en": "Clinical studies"
+        },
+        "paragraphs": [
+          {
+            "sv": "Är du intresserad av att ta del av de kliniska studierna? Kontakta oss.",
+            "en": "Would you like to read the clinical studies? Get in touch with us."
+          }
+        ],
+        "items": []
+      }
+    ],
+    "seo": {
+      "title": {
+        "sv": "Fettfrysning i Göteborg, Proshock Ice™ | Plaza Di Laura",
+        "en": "Fat Freezing in Gothenburg, Proshock Ice™ | Plaza Di Laura"
+      },
+      "description": {
+        "sv": "Fettfrysning och cellulitreducering i Göteborg med Proshock Ice™, som kombinerar kryolipolys och stötvågsterapi. Utan nålar eller kirurgi. Plaza Di Laura.",
+        "en": "Fat freezing and cellulite reduction in Gothenburg with Proshock Ice™, combining cryolipolysis and shockwave therapy. No needles or surgery. Plaza Di Laura."
+      }
+    }
+  }
+]

@@ -1,0 +1,5 @@
+# Minifier install (recreate with: npm install, inside _build)
+_build/node_modules/
+__pycache__/
+.DS_Store
+Thumbs.db

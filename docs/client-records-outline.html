@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Client records and booking for Plaza Di Laura</title>
+<style>
+  @font-face { font-family: "Jost"; src: url("../assets/fonts/jost-latin.woff2") format("woff2"); font-weight: 300 600; }
+  @page { size: A4; margin: 15mm 16mm 13mm; }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { margin: 0; font-family: "Jost", Arial, sans-serif; font-size: 9.6pt; line-height: 1.45; color: #26211f; }
+  header { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 1px solid #26211f; padding-bottom: 8px; margin-bottom: 12px; }
+  header img { height: 13px; }
+  header span { font-size: 8pt; letter-spacing: 0.14em; text-transform: uppercase; color: #6b615b; }
+  h1 { font-weight: 300; font-size: 23pt; line-height: 1.08; letter-spacing: -0.01em; margin: 0 0 6px; }
+  .lead { font-size: 10.6pt; color: #4a423e; margin: 0 0 12px; max-width: 150mm; }
+  h2 { font-size: 8.4pt; letter-spacing: 0.14em; text-transform: uppercase; color: #975548; font-weight: 500; margin: 0 0 5px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 18px; }
+  section { break-inside: avoid; }
+  .box { background: #eee5dd; border-radius: 6px; padding: 9px 12px; }
+  ul, ol { margin: 0; padding-left: 15px; }
+  li { margin: 0 0 2.5px; }
+  p { margin: 0 0 5px; }
+  .flow { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; margin: 2px 0 0; padding: 0; list-style: none; counter-reset: f; }
+  .flow li { counter-increment: f; background: #fffdfb; border: 1px solid #ded3c9; border-radius: 6px; padding: 7px 8px 8px; font-size: 8.4pt; line-height: 1.35; margin: 0; }
+  .flow li::before { content: counter(f); display: block; width: 16px; height: 16px; border-radius: 50%; background: #975548; color: #fff; font-size: 7.6pt; text-align: center; line-height: 16px; margin-bottom: 4px; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .opt { border: 1px solid #ded3c9; border-radius: 6px; padding: 7px 10px; }
+  .opt strong { display: block; font-weight: 500; margin-bottom: 2px; }
+  .full { grid-column: 1 / -1; }
+  footer { margin-top: 10px; padding-top: 7px; border-top: 1px solid #ded3c9; display: flex; justify-content: space-between; font-size: 8pt; color: #6b615b; }
+  strong { font-weight: 500; }
+</style>
+</head>
+<body>
+<header><img src="../assets/img/logo-wordmark-dark.png" alt="Plaza Di Laura"><span>Outline · November 2026</span></header>
+
+<h1>Client records and booking for Plaza Di Laura</h1>
+<p class="lead">You showed us a client record with history, treatments, bookings, consent, payments, medical record, documentation photos and contact. We have added a working demo of exactly that to your prototype, under <strong>Kundkort</strong> (link in the footer of the demo site), and connected it to the new booking page.</p>
+
+<div class="grid">
+  <section class="full">
+    <h2>How it works day to day</h2>
+    <ol class="flow">
+      <li>The client books on your website, or books a free consultation.</li>
+      <li>They answer your health questions. If one applies, the system suggests a consultation instead.</li>
+      <li>They sign the consent form on their phone with BankID before the visit.</li>
+      <li>A client card is created. You add method, pigment, needle and notes after the treatment.</li>
+      <li>You take before, right-after and healed photos straight into the card.</li>
+      <li>The system reminds you and the client about the touch-up after 4–6 weeks and the refill within 12 months.</li>
+    </ol>
+  </section>
+
+  <section class="box">
+    <h2>Version 1: what we suggest building first</h2>
+    <ul>
+      <li>Online booking on your website, with your treatments and opening hours</li>
+      <li>Client card with the eight sections from your picture</li>
+      <li>Digital health declaration and consent, signed with BankID</li>
+      <li>Photo log per visit, with a before and after comparison</li>
+      <li>Touch-up and refill reminders by text and email</li>
+      <li>Payment record (Swish, card, Qliro for courses)</li>
+      <li>Staff login on phone, tablet and computer</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Later, when you are ready</h2>
+    <ul>
+      <li>“My pages” for clients: their bookings, forms and aftercare advice</li>
+      <li>Online payment and deposits at booking</li>
+      <li>Academy: student records, course dates and certificates</li>
+      <li>Client card template for your students to use in their own businesses</li>
+      <li>Simple reports: bookings, returning clients, refills due</li>
+    </ul>
+  </section>
+
+  <section class="full">
+    <h2>Two ways to build it</h2>
+    <div class="two">
+      <div class="opt"><strong>A. Connect your new website to an existing clinic system</strong>Faster to start and runs on a monthly subscription. Less control over the look, and the client card follows the supplier’s design.</div>
+      <div class="opt"><strong>B. A system built for Plaza Di Laura</strong>Your design and your way of working, including the No Trauma notes, PMU pigment records and the academy. Larger first investment.</div>
+    </div>
+    <p style="margin-top:5px">We will recommend one of the two once we have your answers below.</p>
+  </section>
+
+  <section>
+    <h2>Keeping client data safe</h2>
+    <p>Health answers and face photos are sensitive personal data under GDPR. Whichever way we build, the data is stored encrypted within the EU, each staff member has their own login, access is logged, clients give consent, and records can be exported or deleted on request.</p>
+  </section>
+
+  <section class="box">
+    <h2>Five questions for you</h2>
+    <ol>
+      <li>Is the client card for you and your staff only, or should clients log in too?</li>
+      <li>What do you use today for bookings and client cards?</li>
+      <li>Which parts do you need on day one?</li>
+      <li>Should academy students use it as well?</li>
+      <li>Phone only, or tablet and computer too?</li>
+    </ol>
+  </section>
+</div>
+
+<footer><span>The demo uses made-up example clients. No real client data is stored.</span><span>Next step: a 20-minute call to go through the demo together.</span></footer>
+</body>
+</html>

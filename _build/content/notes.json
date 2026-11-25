@@ -1,0 +1,35 @@
+{
+  "contradictions": [
+    "Customers treated: homepage hero says '1500+ nöjda kunder'; Om Laura says 'över 15 000 kunder'; Kosmetisk Tatuering page says 'över 15.000 kunder'. No customer count is used anywhere in the content.",
+    "Students trained: Om Laura says 'över 350 behandlare'; Kosmetisk Tatuering page says 'över 300 elever'; homepage, Academy page, course PDF and the om-oss body say 'hundratals' / 'flera hundra'. Content uses 'hundratals elever' / 'hundreds of students' only.",
+    "Fat freezing exclusivity: Klinik page says 'enda kliniken i västra götaland'; treatment page says 'enda kliniken i Göteborg'. Content uses 'enda kliniken i Göteborg'.",
+    "Years in cosmetic tattooing: Om Laura and the Kosmetisk Tatuering page say 15 years of PMU (20+ years in beauty overall); Academy page, course PDF and homepage ('20+ års erfarenhet av Kosmetisk Tatuering', 'EST. 2006') say over 20 years of cosmetic tattooing; läppar/fräknar/lashliner text also says 'över 20 års erfarenhet inom kosmetisk tatuering'. Kept as written per page; the client should pick one figure.",
+    "Business experience: footer block and Academy 'Därför väljer elever vår skola' say 'över 15 års erfarenhet'; microneedling treatment page says 'över 20 års erfarenhet inom avancerad hudvård'; microneedling course page says 'över 15 års erfarenhet inom hudvård och kosmetisk estetik'.",
+    "No Trauma swelling: treatment pages say 'ingen svullnad' / 'Ingen svullnad uppstår'; Om Laura says 'minimal svullnad'.",
+    "Robert Tomaszewski: 'över 13 års erfarenhet' but co-founder of a method 'som lanserades redan 2002' (24 years ago).",
+    "SMP earnings maths: two visits at 8 000–12 000 kr each gives 16 000–24 000 kr, but the page says 'ca 20.000–24.000 kr'. Figures kept exactly as written.",
+    "Signature PMU live demo: course page says 'LIVE demonstration av Laura L på en hel behandling'; PDF says 'på en full läpptatuering'. Content uses the page wording.",
+    "Course naming: PDF calls the course 'Grundkurs Alla Metoder'; the site calls it 'Signature PMU Artist Program'. Methods spelled 'Powderbrow' on the page and 'Powderbrows' in the PDF.",
+    "Återbesök timing: puderbryn says ca 4–6 veckor; strokes and läppar say ca 4–5 veckor (may be intentional per treatment).",
+    "Review count: the brief expected 13 client reviews; home.html contains 12 (plus the Novah Wallin student quote, which is in academy.json)."
+  ],
+  "missing": [
+    "Prices for all nine treatments (only the nanostrokes add-on, 1 000 kr, is stated) and for every course except Signature PMU (55 000 kr).",
+    "Course length for Grundkurs SMP, Grundkurs Microneedling and Grundkurs Ink Removal; their format and (for microneedling and ink removal) what is included.",
+    "PDF links for the five other courses (download buttons exist on the site, URLs unknown).",
+    "Who teaches the SMP course: the course page repeats Robert's treatment bio ('Behandlingen utförs av...') but does not say he is the teacher.",
+    "Durations, longevity, aftercare, contraindications and preparation for fräknar, lashliner, microneedling, SMP, LIFT and fettfrysning; preparation/contraindications for strokes and läppar.",
+    "Cancellation terms for läppar and all non-PMU treatments.",
+    "Full Shopify product descriptions: products.json and product pages were rate-limited; the meta descriptions show longer texts exist (e.g. the lashliner 'Min filosofi: osynlig perfektion' section, with a 'Varje behandling anpassas efter...' list cut off). Only complete sentences from those meta descriptions were used."
+  ],
+  "edits": [
+    "Removed exact customer and student counts; 'över 350 behandlare' became 'hundratals behandlare', 'flera hundra elever' became 'hundratals elever', and the 'behandlat över 15 000 kunder' bullets were dropped.",
+    "Replaced every spaced en dash and the hyphen-as-dash in a review with commas, colons or full stops.",
+    "Typos and grammar: kvalite to kvalitet, noggrannt to noggrant, våran to vår, dom to de, fräken to fräkne, få del av to ta del av, influensers to influencers, Marknadsföringlära to Marknadsföringslära, mailas to mejlas, livförändrande to livsförändrande, cryolipolys to kryolipolys, 'Du ej kommer bilda skorpor' to 'Du bildar inga skorpor', 'enligt ök' expanded to 'enligt överenskommelse'.",
+    "Dropped shouting caps and normalised names: Skalp Mikro Pigmentering / Scalp Micro Pigmentering to skalp mikropigmentering, BIOMASER to Biomaser, HIS HAIR SWEDEN to His Hair Sweden, no trauma to No Trauma.",
+    "Linda L. review: the heart emoji was the only separator, so minimal punctuation was added; other emoji removed. Linda E.'s 'Trevlig bemötande' kept verbatim.",
+    "Used complete sentences from Shopify meta descriptions for puderbryn, strokes and läppar intros and the lashliner philosophy block.",
+    "The om-oss body in pages.json is not truncated (only the text dump was); it was used in full, with 'Vårt mål' moved before the support list to fit the paragraphs-then-items schema.",
+    "Course 'Kursupplägg' line 'Eleverna erhåller certifikat / Fotografering på elever & lärare med certifikat' condensed to one sentence."
+  ]
+}

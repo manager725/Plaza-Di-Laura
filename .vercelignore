@@ -1,0 +1,6 @@
+_build
+docs
+*.md
+*.py
+.vercelignore
+.gitignore
