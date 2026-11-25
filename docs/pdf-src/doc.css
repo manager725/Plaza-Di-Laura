@@ -1,0 +1,83 @@
+/* Plaza Di Laura client documents: A4 print layout in the site's own design language */
+@font-face { font-family: "Jost"; font-weight: 100 900; src: url("/assets/fonts/jost-latin.woff2") format("woff2"); }
+@font-face { font-family: "Cormorant Garamond"; font-weight: 300 700; src: url("/assets/fonts/cormorant-garamond-latin.woff2") format("woff2"); }
+@font-face { font-family: "Cormorant Garamond"; font-style: italic; font-weight: 300 700; src: url("/assets/fonts/cormorant-garamond-italic-latin.woff2") format("woff2"); }
+
+@page { size: A4; margin: 0; }
+:root {
+  --paper: #fbf8f4; --porcelain: #f7f3ef; --tint: #eee5dd; --ink: #26211f; --ink-2: #4a423e; --muted: #6b615b;
+  --line: #e0d6cc; --brand: #975548; --band: #221d1b; --band-ink: #f2ece6; --band-accent: #e3a497;
+  --serif: "Cormorant Garamond", Georgia, serif; --sans: "Jost", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: #d9d3cd; }
+body { font-family: var(--sans); color: var(--ink); font-size: 9.6pt; line-height: 1.55; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+img { display: block; max-width: 100%; }
+p { margin: 0 0 2.6mm; }
+
+.page {
+  width: 210mm; height: 297mm; margin: 0 auto 8mm; position: relative; overflow: hidden;
+  background: var(--paper); padding: 20mm 18mm 18mm; display: flex; flex-direction: column;
+  break-after: page; page-break-after: always;
+}
+.page:last-child { break-after: auto; page-break-after: auto; }
+@media print { html, body { background: none; } .page { margin: 0; } }
+
+/* Running header and footer */
+.run { position: absolute; left: 18mm; right: 18mm; top: 9mm; display: flex; justify-content: space-between; font-size: 6.8pt; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); }
+.foot { position: absolute; left: 18mm; right: 18mm; bottom: 8.5mm; display: flex; justify-content: space-between; align-items: center; border-top: 0.3mm solid var(--line); padding-top: 2.6mm; font-size: 6.8pt; color: var(--muted); letter-spacing: 0.04em; }
+.foot b { font-weight: 500; color: var(--ink-2); }
+
+/* Type */
+.label { display: inline-flex; align-items: center; gap: 3mm; font-size: 7pt; font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; color: var(--brand); margin-bottom: 4mm; }
+.label::before { content: ""; width: 7mm; height: 0.3mm; background: currentColor; }
+h1, h2, h3 { font-family: var(--serif); font-weight: 400; margin: 0; color: var(--ink); line-height: 1.04; letter-spacing: -0.01em; }
+h1 { font-size: 46pt; }
+h2 { font-size: 27pt; margin-bottom: 4mm; }
+h3 { font-size: 13.5pt; font-weight: 500; line-height: 1.15; margin-bottom: 1.4mm; }
+h1 em, h2 em { font-style: italic; color: var(--brand); }
+.lead { font-size: 11pt; line-height: 1.55; color: var(--ink-2); max-width: 140mm; }
+.small { font-size: 8.2pt; line-height: 1.5; color: var(--ink-2); }
+.cap { font-size: 7.8pt; line-height: 1.45; color: var(--ink-2); margin-top: 2.4mm; }
+.cap strong { font-weight: 500; color: var(--ink); }
+.num { font-family: var(--serif); font-style: italic; color: var(--brand); }
+
+/* Screens */
+.browser { border: 0.3mm solid var(--line); border-radius: 2mm; overflow: hidden; background: #fff; box-shadow: 0 3mm 9mm -5mm rgba(38, 33, 31, 0.35); }
+.browser .bar { height: 4.2mm; display: flex; align-items: center; gap: 1.1mm; padding: 0 2.2mm; background: #f1ece7; border-bottom: 0.3mm solid var(--line); }
+.browser .bar i { width: 1.3mm; height: 1.3mm; border-radius: 50%; background: #d4c9bf; }
+.browser .bar span { margin-left: 3mm; flex: 1; height: 2.3mm; border-radius: 1.2mm; background: #fff; font-size: 4.6pt; line-height: 2.3mm; color: var(--muted); padding-left: 2mm; letter-spacing: 0.02em; }
+.phone { border: 1.6mm solid #1f1b1a; border-radius: 6mm; overflow: hidden; background: #1f1b1a; box-shadow: 0 3mm 9mm -4mm rgba(38, 33, 31, 0.45); }
+.phone img { border-radius: 4.4mm; }
+.shot { border: 0.3mm solid var(--line); border-radius: 1.6mm; overflow: hidden; box-shadow: 0 2mm 6mm -4mm rgba(38, 33, 31, 0.3); background: #fff; }
+
+.tag { display: inline-block; font-size: 6.4pt; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; padding: 0.6mm 2mm; border-radius: 3mm; margin-bottom: 2mm; }
+.tag--old { background: #e9e4df; color: #5e5752; }
+.tag--new { background: var(--brand); color: #fff; }
+
+.rule { height: 0.3mm; background: var(--line); margin: 6mm 0; }
+.grid { display: grid; gap: 6mm; }
+.g2 { grid-template-columns: 1fr 1fr; }
+.g3 { grid-template-columns: 1fr 1fr 1fr; }
+.g4 { grid-template-columns: repeat(4, 1fr); }
+
+/* Stats strip */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 0.3mm solid var(--line); border-bottom: 0.3mm solid var(--line); }
+.stats div { padding: 4.5mm 4mm 4mm 0; }
+.stats div + div { padding-left: 4mm; border-left: 0.3mm solid var(--line); }
+.stats strong { display: block; font-family: var(--serif); font-weight: 400; font-size: 25pt; line-height: 1; color: var(--ink); font-variant-numeric: lining-nums; }
+.stats span { display: block; margin-top: 1.6mm; font-size: 7.6pt; line-height: 1.4; color: var(--muted); }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; font-size: 8.3pt; line-height: 1.45; }
+th { text-align: left; font-size: 6.8pt; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); padding: 0 3mm 2mm 0; border-bottom: 0.3mm solid var(--ink); }
+td { padding: 2.3mm 3mm 2.3mm 0; border-bottom: 0.3mm solid var(--line); vertical-align: top; color: var(--ink-2); }
+td:first-child { color: var(--ink); font-weight: 500; }
+
+/* Lists */
+ul.dash { list-style: none; margin: 0; padding: 0; }
+ul.dash li { position: relative; padding-left: 5mm; margin-bottom: 1.6mm; }
+ul.dash li::before { content: ""; position: absolute; left: 0; top: 2.5mm; width: 2.8mm; height: 0.3mm; background: var(--brand); }
+ul.checks { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 8mm; }
+ul.checks li { break-inside: avoid; position: relative; padding-left: 6mm; margin-bottom: 2mm; font-size: 8.4pt; line-height: 1.45; color: var(--ink-2); }
+ul.checks li::before { content: ""; position: absolute; left: 0; top: 0.6mm; width: 3mm; height: 3mm; border: 0.3mm solid var(--brand); border-radius: 0.6mm; }

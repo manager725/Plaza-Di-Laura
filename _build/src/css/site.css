@@ -1113,7 +1113,9 @@ details.acc .acc__body p:last-child { margin-bottom: 0; }
   font-size: 15px; font-weight: 500; box-shadow: var(--shadow); transition: transform 250ms var(--ease);
 }
 .chat-launch svg { width: 22px; height: 22px; }
-@media (hover: hover) { .chat-launch:hover { transform: translateY(-2px); } }
+@media (hover: hover) { .chat-launch:hover { background: var(--ink-2); } }
+/* On phones the chat is a sheet: the page behind it stays still */
+@media (max-width: 759px) { body.chat-open { overflow: hidden; } }
 .chat {
   position: fixed; z-index: var(--z-modal); right: 0; left: 0; bottom: 0; height: min(82vh, 640px); height: min(82dvh, 640px);
   background: var(--surface); border-radius: 14px 14px 0 0; box-shadow: 0 -12px 48px -12px rgba(0, 0, 0, 0.35);
@@ -1125,7 +1127,13 @@ details.acc .acc__body p:last-child { margin-bottom: 0; }
 .chat__head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 12px 14px 20px; border-bottom: 1px solid var(--line); }
 .chat__head strong { display: block; font-weight: 500; font-size: 16px; }
 .chat__head span { display: block; font-size: 13px; color: var(--muted); }
-.chat__log { overflow-y: auto; padding: 18px 16px; display: grid; gap: 10px; align-content: start; overscroll-behavior: contain; }
+.chat__log {
+  position: relative; overflow-y: auto; padding: 18px 16px; display: grid; gap: 10px; align-content: start; overscroll-behavior: contain;
+  scrollbar-width: thin; scrollbar-color: var(--line) transparent; scrollbar-gutter: stable;
+}
+.chat__log::-webkit-scrollbar { width: 6px; }
+.chat__log::-webkit-scrollbar-thumb { background: var(--line); border-radius: 3px; }
+.chat__log::-webkit-scrollbar-button { display: none; }
 .msg { max-width: 86%; padding: 11px 14px; border-radius: 12px; font-size: 15px; line-height: 1.5; animation: msg-in 300ms var(--ease) both; }
 .msg p { margin: 0 0 8px; } .msg p:last-child { margin: 0; }
 .msg ul { margin: 6px 0 8px; padding-left: 18px; }
@@ -1137,7 +1145,16 @@ details.acc .acc__body p:last-child { margin-bottom: 0; }
 .msg--typing i:nth-child(2) { animation-delay: 0.15s; } .msg--typing i:nth-child(3) { animation-delay: 0.3s; }
 @keyframes dot { 0%, 60%, 100% { opacity: 0.25; } 30% { opacity: 1; } }
 @keyframes msg-in { from { opacity: 0; transform: translateY(6px); } }
-.chat__chips { display: flex; gap: 6px; overflow-x: auto; padding: 10px 16px; border-top: 1px solid var(--line); scrollbar-width: none; }
+/* Topic buttons: one row that scrolls sideways; a soft fade shows there is more until the end is reached */
+.chat__chips {
+  display: flex; gap: 6px; overflow-x: auto; padding: 10px 16px; border-top: 1px solid var(--line); scrollbar-width: none;
+  overscroll-behavior-x: contain; scroll-behavior: smooth;
+  -webkit-mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 56px), transparent);
+  mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 56px), transparent);
+}
+.chat__chips.is-fit { -webkit-mask-image: none; mask-image: none; }
+.chat__chips.is-mid { -webkit-mask-image: linear-gradient(to right, transparent, #000 40px, #000 calc(100% - 56px), transparent); mask-image: linear-gradient(to right, transparent, #000 40px, #000 calc(100% - 56px), transparent); }
+.chat__chips.is-end { -webkit-mask-image: linear-gradient(to right, transparent, #000 40px); mask-image: linear-gradient(to right, transparent, #000 40px); }
 .chat__chips::-webkit-scrollbar { display: none; }
 .chat__chips button { flex: none; min-height: 36px; padding: 0 12px; border-radius: 18px; border: 1px solid var(--line); background: var(--bg); font-size: 13.5px; white-space: nowrap; }
 @media (hover: hover) { .chat__chips button:hover { border-color: var(--brand); color: var(--brand); } }

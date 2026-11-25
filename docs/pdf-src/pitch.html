@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A new bylaura.se</title>
+<link rel="stylesheet" href="doc.css">
+<style>
+  /* Cover */
+  .cover { padding: 0; background: var(--porcelain); }
+  .cover__top { padding: 18mm 18mm 0; display: flex; justify-content: space-between; align-items: center; }
+  .cover__top img { height: 4.2mm; width: auto; }
+  .cover__top span { font-size: 6.8pt; font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; color: var(--muted); }
+  .cover__text { padding: 26mm 18mm 0; }
+  .cover h1 { font-size: 54pt; line-height: 0.98; }
+  .cover .lead { margin-top: 7mm; max-width: 118mm; font-size: 11.5pt; }
+  .cover__art { position: relative; margin: 16mm 0 0 18mm; height: 128mm; }
+  .cover__art .browser { position: absolute; left: 0; top: 0; width: 158mm; }
+  .cover__art .phone { position: absolute; right: 14mm; top: 34mm; width: 44mm; }
+  .cover__meta { position: absolute; left: 18mm; right: 18mm; bottom: 14mm; display: flex; justify-content: space-between; align-items: flex-end; border-top: 0.3mm solid var(--line); padding-top: 4mm; font-size: 7.6pt; color: var(--ink-2); line-height: 1.5; }
+  .cover__meta b { display: block; font-size: 6.8pt; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); margin-bottom: 1mm; }
+  .cover__meta div:last-child { text-align: right; }
+
+  /* Findings */
+  .finding .shot { height: 46mm; }
+  .finding .shot img { width: 100%; height: 100%; object-fit: cover; object-position: top left; }
+  .finding .phone-mini { height: 46mm; display: flex; justify-content: center; background: var(--tint); border-radius: 1.6mm; padding-top: 3mm; overflow: hidden; }
+  .finding .phone-mini .phone { width: 27mm; height: 60mm; }
+
+  .frow { display: grid; grid-template-columns: 92mm 1fr; gap: 8mm; align-items: center; margin-bottom: 5mm; }
+  .frow .shot { height: 50mm; }
+  .frow .shot img { width: 100%; height: 100%; object-fit: cover; object-position: top left; }
+  .tintbox { height: 50mm; background: var(--tint); border-radius: 1.6mm; display: flex; justify-content: center; gap: 6mm; padding-top: 4mm; overflow: hidden; }
+  .tintbox .phone { width: 27mm; height: 58mm; }
+  .tintbox .phone img { width: 100%; }
+  .frow .num { display: block; font-size: 18pt; line-height: 1; margin-bottom: 2mm; }
+  .frow h3 { font-size: 14pt; margin-bottom: 2mm; }
+
+  /* Before / after */
+  .pair { display: grid; grid-template-columns: 1fr 9mm 1fr; align-items: center; }
+  .pair .arrow { text-align: center; font-family: var(--serif); font-size: 20pt; color: var(--brand); }
+  .phones4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 7mm; align-items: start; }
+  .phones4 .phone { height: 74mm; }
+  .phones4 .phone img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+
+  /* Design */
+  .swatches { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; margin-top: 2mm; }
+  .sw { border: 0.3mm solid var(--line); border-radius: 1.6mm; overflow: hidden; background: #fff; }
+  .sw i { display: block; height: 15mm; }
+  .sw span { display: block; padding: 2mm 2.4mm; font-size: 7pt; line-height: 1.35; color: var(--ink-2); }
+  .sw span b { display: block; font-weight: 500; color: var(--ink); }
+  .type { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; margin-top: 5mm; }
+  .type > div { border: 0.3mm solid var(--line); border-radius: 1.6mm; padding: 4mm; background: #fff; }
+  .type .aa { font-size: 34pt; line-height: 1; color: var(--ink); }
+  .type small { display: block; margin-top: 2mm; font-size: 7pt; color: var(--muted); line-height: 1.4; }
+  .principles h3 { font-size: 12.5pt; }
+  .principles p { font-size: 8.6pt; color: var(--ink-2); margin-bottom: 4.5mm; }
+
+  /* Steps */
+  .step { position: relative; }
+  .step .n { position: absolute; left: -1mm; top: -4mm; z-index: 2; width: 8mm; height: 8mm; border-radius: 50%; background: var(--brand); color: #fff; font-family: var(--serif); font-size: 12pt; line-height: 8mm; text-align: center; }
+
+  .onphone { margin-top: auto; display: grid; grid-template-columns: 30mm 1fr; gap: 8mm; align-items: center; border-top: 0.3mm solid var(--line); padding-top: 6mm; }
+  .onphone .phone { height: 58mm; }
+  .onphone .phone img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+
+  /* Chips row */
+  .chips { display: flex; flex-wrap: wrap; gap: 2mm; }
+  .chips span { font-size: 7.4pt; color: var(--ink-2); border: 0.3mm solid var(--line); border-radius: 4mm; padding: 1mm 3mm; background: #fff; }
+
+  .kk { display: grid; grid-template-columns: 1fr 33mm; gap: 7mm; align-items: end; margin-top: 1mm; }
+  .kk .phone { height: 72mm; }
+  .kk .phone img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+
+  /* Next steps */
+  .steps4 { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 0.3mm solid var(--ink); }
+  .steps4 div { padding: 3.5mm 4mm 0 0; }
+  .steps4 div + div { padding-left: 4mm; border-left: 0.3mm solid var(--line); }
+  .steps4 .num { font-size: 20pt; line-height: 1; display: block; margin-bottom: 1.6mm; }
+  .steps4 h3 { font-size: 11.5pt; }
+  .steps4 p { font-size: 7.8pt; line-height: 1.45; color: var(--ink-2); }
+  .sign { margin-top: auto; padding-bottom: 6mm; display: flex; justify-content: space-between; align-items: flex-end; }
+  .sign p { font-family: var(--serif); font-style: italic; font-size: 15pt; color: var(--ink); margin: 0; }
+</style>
+</head>
+<body>
+
+<!-- 1. Cover -->
+<section class="page cover">
+  <div class="cover__top"><img src="/assets/img/logo-wordmark-dark.png" alt="Plaza Di Laura"><span>Website proposal</span></div>
+  <div class="cover__text">
+    <div class="label">Plaza Di Laura · Göteborg</div>
+    <h1>A new <em>bylaura.se</em></h1>
+    <p class="lead">A clickable preview of your new website, built from your treatments, your courses, your results and your clients' own words.</p>
+  </div>
+  <div class="cover__art">
+    <div class="browser"><div class="bar"><i></i><i></i><i></i><span>bylaura.se</span></div><img src="img/d-home.jpg" alt=""></div>
+    <div class="phone"><img src="img/m-home.jpg" alt=""></div>
+  </div>
+  <div class="cover__meta">
+    <div><b>Prepared for</b>Laura Lindqvist, Plaza Di Laura<br>Kungsgatan 11, Göteborg</div>
+    <div><b>Prepared by</b>Bitsclan<br>25 November 2026</div>
+  </div>
+</section>
+
+<!-- 2. Findings -->
+<section class="page">
+  <div class="run"><span>Plaza Di Laura · A new bylaura.se</span><span>01 · Today</span></div>
+  <div class="label">What we found</div>
+  <h2>Where today's site <em>loses</em> clients</h2>
+  <p class="lead">The current site looks clean. Underneath, three things send people away before they book. We checked every page on 24 November 2026.</p>
+  <div class="frow" style="margin-top:7mm">
+    <div class="shot"><img src="img/b-bokadirekt.jpg" alt=""></div>
+    <div><span class="num">01</span><h3>Boka leads to 242 other salons</h3><p class="small">Every booking and review button points to your old Bokadirekt profile. It now redirects to Bokadirekt's list of skin clinics in Göteborg, with your competitors first.</p></div>
+  </div>
+  <div class="frow">
+    <div class="shot"><img src="img/b-other-salon.jpg" alt=""></div>
+    <div><span class="num">02</span><h3>Course advice opens another salon</h3><p class="small">The course advice button on Om Laura lands on a 90-minute facial at Lily's Beauty Salon, at the moment someone is ready to talk about a 55 000 kr course.</p></div>
+  </div>
+  <div class="frow">
+    <div class="tintbox"><div class="phone"><img src="img/b-m-contact.jpg" alt=""></div><div class="phone"><img src="img/b-m-home.jpg" alt=""></div></div>
+    <div><span class="num">03</span><h3>No way to call, email or visit</h3><p class="small">No phone number, email, opening hours or map anywhere on the site, and some numbers disagree: customers are "1500+" on one page and "över 15 000" on another.</p></div>
+  </div>
+  <div class="stats" style="margin-top:auto">
+    <div><strong>58<small style="font-size:11pt">/100</small></strong><span>Speed score on phones in Google's own test (Lighthouse)</span></div>
+    <div><strong>4.5 s</strong><span>Before the main photo appears on a phone</span></div>
+    <div><strong>0.00 kr</strong><span>Shown as the treatment price in the site search</span></div>
+    <div><strong>1</strong><span>Language: Swedish only, no English for international students</span></div>
+  </div>
+  <div class="foot"><span><b>Bitsclan</b> for Plaza Di Laura</span><span>2</span></div>
+</section>
+
+<!-- 3. Before and after -->
+<section class="page">
+  <div class="run"><span>Plaza Di Laura · A new bylaura.se</span><span>02 · Before and after</span></div>
+  <div class="label">Before and after</div>
+  <h2>Same brand, a <em>clearer</em> first impression</h2>
+  <p class="lead">Your wordmark and portraits stay. What changes is how quickly a visitor understands what you do, trusts you, and books.</p>
+  <div class="pair" style="margin-top:7mm">
+    <div><span class="tag tag--old">Today</span><div class="browser"><div class="bar"><i></i><i></i><i></i><span>bylaura.se</span></div><img src="img/b-home.jpg" alt=""></div></div>
+    <div class="arrow">&rarr;</div>
+    <div><span class="tag tag--new">New</span><div class="browser"><div class="bar"><i></i><i></i><i></i><span>bylaura.se</span></div><img src="img/d-home.jpg" alt=""></div></div>
+  </div>
+  <p class="cap">Today the first screen shows three portraits and two buttons. The new one says what you do, where, since when, and offers booking and a free consultation straight away, with a live slideshow of your results.</p>
+  <div class="phones4" style="margin-top:8mm">
+    <div><span class="tag tag--old">Today</span><div class="phone"><img src="img/b-m-home.jpg" alt=""></div></div>
+    <div><span class="tag tag--new">New</span><div class="phone"><img src="img/m-home.jpg" alt=""></div></div>
+    <div><span class="tag tag--old">Today</span><div class="phone"><img src="img/b-m-contact.jpg" alt=""></div></div>
+    <div><span class="tag tag--new">New</span><div class="phone"><img src="img/m-contact.jpg" alt=""></div></div>
+  </div>
+  <div class="grid g2" style="margin-top:2mm">
+    <p class="cap">On a phone, the new home page leads with the headline, your philosophy and two clear buttons. A booking bar stays at the bottom of every page.</p>
+    <p class="cap">The new contact page explains the free consultation (in person, by phone or on Zoom) and checks the form as it is filled in.</p>
+  </div>
+  <div class="foot"><span><b>Bitsclan</b> for Plaza Di Laura</span><span>3</span></div>
+</section>
+
+<!-- 4. Design -->
+<section class="page">
+  <div class="run"><span>Plaza Di Laura · A new bylaura.se</span><span>03 · The design</span></div>
+  <div class="label">The design</div>
+  <h2>Calm, precise, <em>unmistakably</em> yours</h2>
+  <div class="grid g2" style="grid-template-columns: 1fr 1.05fr; gap: 10mm; margin-top: 3mm">
+    <div class="principles">
+      <h3>Your brand, kept</h3>
+      <p>The thin, widely spaced PLAZA DI LAURA wordmark stays exactly as it is. Your studio portraits in white and your close-up results carry the pages.</p>
+      <h3>One colour, taken from your work</h3>
+      <p>Warm porcelain and charcoal, plus a single clay rose taken from your lip results. It marks buttons and accents, never more.</p>
+      <h3>Couture typography</h3>
+      <p>Headings in Cormorant Garamond, the refined serif of fashion and beauty houses, with one word in rose italic. Text in Jost, whose thin geometric letters echo your logo.</p>
+      <h3>Every section composed</h3>
+      <p>Each part of the home page has its own layout, like the spreads of a magazine. Motion is gentle, and visitors who prefer less movement see a still page.</p>
+    </div>
+    <div>
+      <div class="swatches">
+        <div class="sw"><i style="background:#f7f3ef"></i><span><b>Porcelain</b>#F7F3EF</span></div>
+        <div class="sw"><i style="background:#eee5dd"></i><span><b>Nude</b>#EEE5DD</span></div>
+        <div class="sw"><i style="background:#26211f"></i><span><b>Charcoal</b>#26211F</span></div>
+        <div class="sw"><i style="background:#975548"></i><span><b>Clay rose</b>#975548</span></div>
+      </div>
+      <div class="type">
+        <div><div class="aa" style="font-family:var(--serif)">Aa <em style="color:var(--brand)">Aa</em></div><small>Cormorant Garamond<br>Headings and quotes</small></div>
+        <div><div class="aa" style="font-family:var(--sans);font-weight:300">Aa</div><small>Jost<br>Text, menus and buttons</small></div>
+      </div>
+      <div class="shot" style="margin-top:5mm"><img src="img/d-home-dark.jpg" alt=""></div>
+      <p class="cap"><strong>A designed dark theme</strong> for evening browsing, one tap away, with Swedish and English on every page.</p>
+    </div>
+  </div>
+  <div style="margin-top:auto">
+    <div class="shot" style="height:84mm"><img src="img/d-meet.jpg" alt="" style="width:100%;height:100%;object-fit:cover;object-position:50% 78%"></div>
+    <p class="cap"><strong>Meet Laura.</strong> Your portrait, your own words as a pull quote, and three facts that agree with each other.</p>
+  </div>
+  <div class="foot"><span><b>Bitsclan</b> for Plaza Di Laura</span><span>4</span></div>
+</section>
+
+<!-- 5. Booking -->
+<section class="page">
+  <div class="run"><span>Plaza Di Laura · A new bylaura.se</span><span>04 · Booking</span></div>
+  <div class="label">Booking</div>
+  <h2>From interest to booked in <em>four</em> steps</h2>
+  <p class="lead">Booking happens on your own site, not on a marketplace next to your competitors. A summary with the treatment photo follows the client through every step.</p>
+  <div class="grid g2" style="margin-top:9mm; row-gap: 9mm">
+    <div class="step"><span class="n">1</span><div class="shot"><img src="img/d-book-1.jpg" alt=""></div><p class="cap"><strong>Choose.</strong> Treatments as photo cards in three groups, or a free consultation.</p></div>
+    <div class="step"><span class="n">2</span><div class="shot"><img src="img/d-book-2.jpg" alt=""></div><p class="cap"><strong>Pick days.</strong> Up to three days and a time of day, or "I'm flexible".</p></div>
+    <div class="step"><span class="n">3</span><div class="shot"><img src="img/d-book-3.jpg" alt=""></div><p class="cap"><strong>Health check.</strong> One yes or no per question from your treatment pages. Any yes kindly offers a free consultation instead.</p></div>
+    <div class="step"><span class="n">4</span><div class="shot"><img src="img/d-book-done.jpg" alt=""></div><p class="cap"><strong>Confirmed.</strong> A reference number and preparation tips for that exact treatment; for lips, exfoliate three days before.</p></div>
+  </div>
+  <div class="onphone">
+    <div class="phone"><img src="img/m-book-health.jpg" alt=""></div>
+    <div><h3>The same four steps on a phone</h3><p class="small">A bar at the bottom of the screen always shows what has been chosen and the next step. Every control is large enough for a thumb, and the visitor can go back to any step without losing what they filled in.</p></div>
+  </div>
+  <div class="foot"><span><b>Bitsclan</b> for Plaza Di Laura</span><span>5</span></div>
+</section>
+
+<!-- 6. Features -->
+<section class="page">
+  <div class="run"><span>Plaza Di Laura · A new bylaura.se</span><span>05 · Details</span></div>
+  <div class="label">Details that build trust</div>
+  <h2>Answers <em>before</em> they ask</h2>
+  <div class="grid g2" style="margin-top:5mm; row-gap: 6.5mm">
+    <div><div class="shot"><img src="img/d-guide.jpg" alt=""></div><p class="cap"><strong>Brynguiden.</strong> Four questions recommend powder brows, strokes or LIFT Ink Removal, using only the rules on your own treatment pages.</p></div>
+    <div><div class="shot"><img src="img/d-slider.jpg" alt=""></div><p class="cap"><strong>Before and after.</strong> Visitors drag across one face to see the difference, on three of your real results.</p></div>
+    <div><div class="shot"><img src="img/d-journey.jpg" alt=""></div><p class="cap"><strong>How it works.</strong> Consultation to refill as a deck of cards that stack as you scroll, each with your photo.</p></div>
+    <div><div class="shot"><img src="img/d-reviews.jpg" alt=""></div><p class="cap"><strong>Your clients' words.</strong> One quote at a time, word for word, with the client's name.</p></div>
+    <div><div class="shot"><img src="img/d-treatment-page.jpg" alt=""></div><p class="cap"><strong>Nine treatment pages.</strong> How it is done, how long it lasts, preparation, aftercare, touch-up and refill timing.</p></div>
+    <div><div class="shot"><img src="img/d-course.jpg" alt=""></div><p class="cap"><strong>Six course pages.</strong> Length, max 2 students, 55 000 kr with Qliro instalments, and course advice booking.</p></div>
+  </div>
+  <div class="chips" style="margin-top:6mm"><span>Swedish and English</span><span>Light and dark theme</span><span>Quick-answer chat</span><span>Results gallery with filters</span><span>A signature intro animation</span><span>Tested from 320 px phones to 2560 px screens</span></div>
+  <div class="foot"><span><b>Bitsclan</b> for Plaza Di Laura</span><span>6</span></div>
+</section>
+
+<!-- 7. Kundkort + next steps -->
+<section class="page">
+  <div class="run"><span>Plaza Di Laura · A new bylaura.se</span><span>06 · Kundkort and next steps</span></div>
+  <div class="label">Kundkort</div>
+  <h2>Your clinic's <em>client records</em></h2>
+  <div class="kk">
+    <div class="browser"><div class="bar"><i></i><i></i><i></i><span>bylaura.se/kundkort</span></div><img src="img/d-kundkort.jpg" alt=""></div>
+    <div class="phone"><img src="img/k-phone.jpg" alt=""></div>
+  </div>
+  <div class="grid g2" style="gap:8mm;margin-top:4mm">
+    <p class="small">Based on the client record example you shared: sign in with BankID, a client list with today's overview, and one card per client with the eight sections from your example. The same app works on a phone.</p>
+    <p class="small">It is connected to the website: Emma Berg, the booking from page 5, appears here as a new client with her health answers filled in. All clients in the demo are made up; the live version needs secure EU storage under GDPR.</p>
+  </div>
+  <div class="rule" style="margin:5mm 0"></div>
+  <div class="label">Next steps</div>
+  <div class="steps4">
+    <div><span class="num">01</span><h3>Your feedback</h3><p>What you love, what you would change in the preview.</p></div>
+    <div><span class="num">02</span><h3>Final details</h3><p>The items below, so every page is complete.</p></div>
+    <div><span class="num">03</span><h3>Booking setup</h3><p>Connect a booking system, or book straight into Kundkort.</p></div>
+    <div><span class="num">04</span><h3>Launch</h3><p>bylaura.se moves over, old addresses redirect so Google rankings carry over.</p></div>
+  </div>
+  <h3 style="margin-top:6mm;margin-bottom:3mm">What we need from you</h3>
+  <ul class="checks">
+    <li>Phone number, email and opening hours</li>
+    <li>Postcode and organisation number</li>
+    <li>Treatment prices, and course prices beyond the PMU program</li>
+    <li>Upcoming course dates</li>
+    <li>The booking tool you use today, if any</li>
+    <li>The correct customer and student numbers</li>
+    <li>Sharper photos for lash liner and fat freezing</li>
+    <li>For Kundkort: staff only or clients too, and what you need on day one</li>
+  </ul>
+  <div class="sign"><p>We look forward to hearing what you think.</p><img src="/assets/img/logo-wordmark-dark.png" alt="" style="height:3.6mm;opacity:.75"></div>
+  <div class="foot"><span><b>Bitsclan</b> for Plaza Di Laura</span><span>7</span></div>
+</section>
+
+</body>
+</html>

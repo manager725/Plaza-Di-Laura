@@ -735,7 +735,10 @@
     m.className = "msg msg--" + who;
     m.innerHTML = html;
     chatLog.appendChild(m);
-    chatLog.scrollTop = chatLog.scrollHeight;
+    // Bring the new message into view from its first line, so a long answer is read from the top,
+    // never jumped past. Short messages simply settle at the bottom.
+    var target = Math.min(m.offsetTop - 14, chatLog.scrollHeight - chatLog.clientHeight);
+    if (target > chatLog.scrollTop) chatLog.scrollTo({ top: target, behavior: reduce ? "auto" : "smooth" });
     return m;
   }
   function chatAnswer(topic) {
@@ -783,6 +786,23 @@
       chatAnswer(best);
     });
     doc.addEventListener("pdl:lang", chatChips);
+    // Topic row: edge fades follow the scroll position; a vertical mouse wheel scrolls it sideways.
+    var chipBox = $(".chat__chips", chat);
+    var chipEdges = function () {
+      var max = chipBox.scrollWidth - chipBox.clientWidth, x = chipBox.scrollLeft;
+      chipBox.classList.toggle("is-fit", max < 2);
+      chipBox.classList.toggle("is-end", max >= 2 && x >= max - 2);
+      chipBox.classList.toggle("is-mid", x > 2 && x < max - 2);
+    };
+    chipBox.addEventListener("scroll", chipEdges, { passive: true });
+    chipBox.addEventListener("wheel", function (e) {
+      if (Math.abs(e.deltaY) <= Math.abs(e.deltaX) || chipBox.scrollWidth <= chipBox.clientWidth) return;
+      e.preventDefault();
+      chipBox.scrollBy({ left: e.deltaY, behavior: "instant" });
+    }, { passive: false });
+    window.addEventListener("resize", chipEdges);
+    doc.addEventListener("pdl:lang", function () { chipBox.scrollLeft = 0; chipEdges(); });
+    chat.addEventListener("transitionend", chipEdges);
   }
 
   /* ---------- Sub-navigation ---------- */
@@ -1112,7 +1132,8 @@
 
   /* Magnetic buttons */
   if (finePointer) {
-    $$(".btn--primary, .btn--light, .round-btn, .chat-launch, .nav__book").forEach(function (b) {
+    // Not the floating chat button: a fixed control that drifts with the pointer feels unstable.
+    $$(".btn--primary, .btn--light, .round-btn, .nav__book").forEach(function (b) {
       b.addEventListener("pointermove", function (e) {
         var r = b.getBoundingClientRect();
         var dx = (e.clientX - r.left) / r.width - 0.5, dy = (e.clientY - r.top) / r.height - 0.5;

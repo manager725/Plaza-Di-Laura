@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Technical overview: the new bylaura.se</title>
+<link rel="stylesheet" href="doc.css">
+<style>
+  .head { display: flex; justify-content: space-between; align-items: flex-start; }
+  .head img { height: 3.8mm; width: auto; margin-top: 1mm; }
+  .meta { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 0.3mm solid var(--ink); border-bottom: 0.3mm solid var(--line); margin-top: 7mm; }
+  .meta div { padding: 3mm 3mm 3mm 0; }
+  .meta div + div { padding-left: 3.5mm; border-left: 0.3mm solid var(--line); }
+  .meta b { display: block; font-size: 6.6pt; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8mm; }
+  .meta span { font-size: 8.6pt; color: var(--ink); line-height: 1.4; }
+  .diagram { margin-top: 4mm; border: 0.3mm solid var(--line); border-radius: 1.6mm; background: #fff; padding: 5mm 5mm 3mm; }
+  .cols3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7mm; }
+  .cols3 h3, .cols2 h3 { font-size: 14pt; margin-bottom: 2.6mm; }
+  .cols3 ul.dash li, .cols2 ul.dash li { font-size: 8.2pt; line-height: 1.5; color: var(--ink-2); margin-bottom: 2mm; }
+  .cols3 ul.dash li b, .cols2 ul.dash li b { color: var(--ink); font-weight: 500; }
+  .cols2 { display: grid; grid-template-columns: 1fr 1fr; gap: 9mm; }
+  .note { background: var(--tint); border-radius: 1.6mm; padding: 4mm 5mm; font-size: 8.2pt; line-height: 1.5; color: var(--ink-2); }
+  .note b { color: var(--ink); font-weight: 500; }
+  td.ok { color: var(--brand); font-weight: 500; white-space: nowrap; }
+</style>
+</head>
+<body>
+
+<!-- 1 -->
+<section class="page">
+  <div class="run"><span>Plaza Di Laura · Technical overview</span><span>01 · The build</span></div>
+  <div class="head"><div class="label">Technical overview</div><img src="/assets/img/logo-wordmark-dark.png" alt="Plaza Di Laura"></div>
+  <h2 style="font-size:31pt">How the new <em>bylaura.se</em> is built</h2>
+  <p class="lead">A fast, static website with nothing to install and very little to attack. This page explains the build; the next two cover speed, privacy, testing and what it takes to go live.</p>
+  <div class="meta">
+    <div><b>Pages</b><span>23, plus a 404 page</span></div>
+    <div><b>Languages</b><span>Swedish and English</span></div>
+    <div><b>Themes</b><span>Light and dark</span></div>
+    <div><b>Status</b><span>Private preview, not indexed</span></div>
+  </div>
+
+  <h3 style="margin-top:9mm;font-size:14pt">From your content to a visitor's screen</h3>
+  <div class="diagram">
+    <svg viewBox="0 0 640 270" width="100%" role="img" aria-label="Your content becomes a fast site, and bookings feed Kundkort" font-family="Jost, Arial, sans-serif">
+      <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#a89d94"/></marker></defs>
+      <g fill="none" stroke="#a89d94" stroke-width="1.2">
+        <path d="M134 70H160" marker-end="url(#a)"/><path d="M294 70H320" marker-end="url(#a)"/><path d="M454 70H480" marker-end="url(#a)"/>
+        <path d="M547 114V160" marker-end="url(#a)"/><path d="M480 205H454" marker-end="url(#a)"/>
+      </g>
+      <g font-size="10.5" fill="#4a423e">
+        <rect x="0" y="26" width="134" height="88" rx="6" fill="#fbf8f4" stroke="#d8cdc3"/>
+        <text x="12" y="50" font-size="12.5" font-weight="500" fill="#26211f">Your content</text>
+        <text x="12" y="70">Texts and photos</text><text x="12" y="86">Reviews, course PDF</text><text x="12" y="102">Treatment rules</text>
+        <rect x="160" y="26" width="134" height="88" rx="6" fill="#fbf8f4" stroke="#d8cdc3"/>
+        <text x="172" y="50" font-size="12.5" font-weight="500" fill="#26211f">Page builder</text>
+        <text x="172" y="70">23 pages, SV and EN</text><text x="172" y="86">Images resized</text><text x="172" y="102">Code compressed</text>
+        <rect x="320" y="26" width="134" height="88" rx="6" fill="#fbf8f4" stroke="#d8cdc3"/>
+        <text x="332" y="50" font-size="12.5" font-weight="500" fill="#26211f">Hosting</text>
+        <text x="332" y="70">Vercel network</text><text x="332" y="86">Encrypted https</text><text x="332" y="102">Private preview link</text>
+        <rect x="480" y="26" width="134" height="88" rx="6" fill="#f3e6e2" stroke="#975548" stroke-width="1.6"/>
+        <text x="492" y="50" font-size="12.5" font-weight="500" fill="#26211f">Visitors</text>
+        <text x="492" y="70">Phone, tablet</text><text x="492" y="86">and computer</text><text x="492" y="102">Swedish or English</text>
+        <rect x="480" y="160" width="134" height="90" rx="6" fill="#fbf8f4" stroke="#d8cdc3"/>
+        <text x="492" y="184" font-size="12.5" font-weight="500" fill="#26211f">Booking flow</text>
+        <text x="492" y="204">Treatment, days</text><text x="492" y="220">Health, details</text><text x="492" y="236">Reference number</text>
+        <rect x="320" y="160" width="134" height="90" rx="6" fill="#fbf8f4" stroke="#d8cdc3" stroke-dasharray="4 3"/>
+        <text x="332" y="184" font-size="12.5" font-weight="500" fill="#26211f">Kundkort</text>
+        <text x="332" y="204">Client card (demo)</text><text x="332" y="220">Live: EU storage</text><text x="332" y="236">and BankID login</text>
+        <text x="555" y="142" font-size="9.5" fill="#6b615b">books</text>
+      </g>
+    </svg>
+  </div>
+  <p class="cap">Pages are assembled ahead of time, so a phone receives a finished page instead of waiting for a website builder. There is no database or admin login on the public site.</p>
+
+  <div class="cols2" style="margin-top:8mm">
+    <div>
+      <h3>What a visitor gets</h3>
+      <ul class="dash">
+        <li><b>Clinic:</b> nine treatment pages with process, preparation, aftercare and timing.</li>
+        <li><b>Academy:</b> six course pages with length, price where known, and course advice booking.</li>
+        <li><b>Tools:</b> booking in four steps, Brynguiden, a before and after slider, quick-answer chat.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>What stays with us</h3>
+      <ul class="dash">
+        <li><b>Source and design files</b> are kept in our private repository and are not part of the published site.</li>
+        <li><b>Published code</b> is compressed, which also makes it lighter to load.</li>
+        <li><b>Every version</b> is kept, so any change can be undone in minutes.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot"><span><b>Bitsclan</b> for Plaza Di Laura · 25 November 2026</span><span>1</span></div>
+</section>
+
+<!-- 2 -->
+<section class="page">
+  <div class="run"><span>Plaza Di Laura · Technical overview</span><span>02 · Speed, access, privacy</span></div>
+  <div class="label">Quality in use</div>
+  <h2>Fast, open to everyone, <em>private</em> by default</h2>
+  <div class="cols3" style="margin-top:5mm">
+    <div>
+      <h3>Speed</h3>
+      <ul class="dash">
+        <li><b>Right-sized images.</b> Every photo is saved in the modern WebP format at the sizes it is shown, and the browser picks the smallest sharp one. Today's home photo is a 2.5 MB PNG.</li>
+        <li><b>Visible first.</b> The main photo loads with priority; photos further down load as the visitor scrolls.</li>
+        <li><b>Light code.</b> No plugins or frameworks. One page, one stylesheet and one script come to about 70 KB compressed.</li>
+        <li><b>Own fonts.</b> About 100 KB, served from the site itself.</li>
+        <li><b>Smooth motion.</b> Animations only move and fade, which the phone's graphics chip handles.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Every device</h3>
+      <ul class="dash">
+        <li><b>Phones first.</b> Designed for the phone, expanded for tablets and computers, with its own layout for landscape phones.</li>
+        <li><b>Easy to tap.</b> Every control at least 44 px on touch screens.</li>
+        <li><b>Easy to read.</b> Text contrast meets WCAG 2.1 AA in both themes.</li>
+        <li><b>Keyboard and screen readers.</b> Menus, booking, Brynguiden and the gallery work without a mouse; photos are described.</li>
+        <li><b>Less motion on request.</b> Visitors who turn off animations see a still page.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Privacy</h3>
+      <ul class="dash">
+        <li><b>No tracking.</b> No analytics, no advertising cookies, so no cookie banner is needed.</li>
+        <li><b>No outside calls.</b> Fonts and photos come from the site itself. The Google map loads only when a visitor clicks to show it.</li>
+        <li><b>On the visitor's device only:</b> their language, theme, and whether they have seen the intro.</li>
+        <li><b>Preview forms</b> check the details but send nothing yet.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="note" style="margin-top:6mm"><b>The live Kundkort handles health data.</b> Client records, health declarations and treatment photos are sensitive personal data under GDPR. The live version needs storage in the EU with encryption, personal BankID logins, a log of who opened which record, signed consent, and a data processing agreement between you and us. We plan this with you before any real client data is stored.</div>
+
+  <div class="label" style="margin-top:9mm">Quality checks</div>
+  <h3 style="font-size:14pt;margin-bottom:3mm">Run on the final version, 25 November 2026</h3>
+  <table>
+    <thead><tr><th style="width:28%">Check</th><th>Scope</th><th style="width:16%">Result</th></tr></thead>
+    <tbody>
+      <tr><td>Layout</td><td>23 pages at 14 screen sizes, 320 to 2560 px, incl. landscape phones and tablets</td><td class="ok">No issues</td></tr>
+      <tr><td>Visual review</td><td>283 screenshots of the key pages on phone, tablet, laptop and landscape phone</td><td class="ok">All fixed</td></tr>
+      <tr><td>Website flows</td><td>Booking start to confirmation, health questions, Brynguiden, language, theme, menus, chat, contact, gallery</td><td class="ok">40 of 40</td></tr>
+      <tr><td>Kundkort</td><td>Sign in, list, search, all eight sections, consent, photo compare, phone view, booking to new client</td><td class="ok">35 of 35</td></tr>
+      <tr><td>Intro animation</td><td>First visit, skip, reduced motion, English, dark theme, phone</td><td class="ok">15 of 15</td></tr>
+      <tr><td>Accessibility</td><td>Google Lighthouse during the build; checked again on the live address</td><td class="ok">100 of 100</td></tr>
+      <tr><td>Errors</td><td>Browser console on every page</td><td class="ok">None</td></tr>
+    </tbody>
+  </table>
+  <div class="foot"><span><b>Bitsclan</b> for Plaza Di Laura · 25 November 2026</span><span>2</span></div>
+</section>
+
+<!-- 3 -->
+<section class="page">
+  <div class="run"><span>Plaza Di Laura · Technical overview</span><span>03 · Hosting and launch</span></div>
+  <div class="label">Hosting and updates</div>
+  <h2>We look after it, <em>you</em> focus on clients</h2>
+  <div class="cols2" style="margin-top:3mm">
+    <ul class="dash">
+      <li><b>Where it runs.</b> On Vercel, a professional hosting network that serves the site from servers close to each visitor, over an encrypted connection.</li>
+      <li><b>Private until launch.</b> You get a private link to share with whoever you like. Search engines are told not to list it, so it does not compete with your current site.</li>
+    </ul>
+    <ul class="dash">
+      <li><b>Changes.</b> Send us feedback, texts or photos; the updated site is online within minutes.</li>
+      <li><b>Your current site</b> stays exactly as it is until you decide to switch.</li>
+    </ul>
+  </div>
+
+  <div class="label" style="margin-top:9mm">Going live</div>
+  <h3 style="font-size:14pt;margin-bottom:3mm">What is connected at launch</h3>
+  <table>
+    <thead><tr><th style="width:17%">Step</th><th style="width:43%">What we do</th><th>What we need from you</th></tr></thead>
+    <tbody>
+      <tr><td>Content</td><td>Complete every page with the final details</td><td>Phone, email, opening hours, postcode, org number, prices, course dates, correct customer and student numbers</td></tr>
+      <tr><td>Booking</td><td>Connect bookings to a booking system, or straight to your Kundkort</td><td>The booking tool you use today, if any</td></tr>
+      <tr><td>Forms</td><td>Contact and booking requests to your inbox; confirmations by email, reminders by text</td><td>The email address that should receive them</td></tr>
+      <tr><td>Domain</td><td>Point bylaura.se to the new site</td><td>Access to the domain settings, or your web contact</td></tr>
+      <tr><td>Google</td><td>Redirect every old page address to its new page, open the site to search engines, add a sitemap</td><td>Nothing</td></tr>
+      <tr><td>Kundkort</td><td>Secure EU storage, BankID login, access log, consent signing, text reminders</td><td>Staff only or clients too, your tools today, what you need on day one</td></tr>
+    </tbody>
+  </table>
+
+  <div class="note" style="margin-top:8mm"><b>Two questions for you.</b> Should course enquiries go to the same inbox as clinic bookings? And would you like full prices on every treatment page, or "from" prices?</div>
+
+  <div style="margin-top:auto;padding-bottom:6mm;display:flex;justify-content:space-between;align-items:flex-end">
+    <p style="font-family:var(--serif);font-style:italic;font-size:15pt;margin:0">Questions about anything in this document are welcome.</p>
+    <img src="/assets/img/logo-wordmark-dark.png" alt="" style="height:3.6mm;opacity:.75">
+  </div>
+  <div class="foot"><span><b>Bitsclan</b> for Plaza Di Laura · 25 November 2026</span><span>3</span></div>
+</section>
+
+</body>
+</html>
